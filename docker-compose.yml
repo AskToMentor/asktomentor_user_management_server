@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        NODE_VERSION: 20  # Specify the Node.js version you want
+    image: asktomentor_user_management_server
+    ports:
+      - "5000:3000"
+      # - "5001:5000"
+      # - "5002:5000"
+    deploy:
+      replicas: 1
+    restart: always
+networks:
+  railnetwork:
+    driver: asktomentor

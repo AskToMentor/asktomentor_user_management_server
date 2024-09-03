@@ -1,0 +1,41 @@
+{
+  "name": "asktomentor_user_management_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "schema-modules": "git clone --recurse-submodules https://github.com/Hksoft-code/railkafeschema.git && mkdir -p src/models && mv railkafeschema/src/models/* src/models && mkdir -p src/config && mv railkafeschema/src/config/* src/config/ && mv railkafeschema/src/services/sequelizeHooks/* src/services/sequelizeHooks/&& rm -rf railkafeschema/",
+    "schema-modules-window": "git clone --recurse-submodules https://github.com/Hksoft-code/railkafeschema.git && mkdir src\\models && move railkafeschema\\src\\models\\* src\\models && mkdir src\\config && move railkafeschema\\src\\config\\* src\\config && move railkafeschema\\src\\services\\sequelizeHooks\\* src\\services\\sequelizeHooks\\ && rd /s /q railkafeschema\\"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "keywords": [],
+  "author": "hksoftware",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.637.0",
+    "amqplib": "^0.10.3",
+    "aws-sdk": "^2.1565.0",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "short-unique-id": "^5.0.3",
+    "winston": "^3.11.0",
+    "xss": "^1.0.14"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-plugin-require-path-exists": "^1.1.9",
+    "eslint-plugin-sort-keys-fix": "^1.1.2"
+  }
+}
