@@ -82,7 +82,7 @@ async function setupMiddleware() {
 }
 
 function setRoutes() {
-    app.use("/api/v1/admin", route);
+    app.use("/api/v1/user", route);
     app.get("*", (req, res) => {
         res.status(404).send({
             error: CommonMessage.ERROR_MESSAGE_NOT_FOUND 
