@@ -13,7 +13,9 @@ const rateLimiter_block_account = require("./middleware/rateLimit_block_account.
 const {
     CommonMessage
 } = require("./utils/constants.js");
-
+const {
+    connect
+} = require ("./configuration/dbConnection.js");
 // const helper =require("./utils/helper.js");
 // const checkForForceUpdate = require("./middleware/checkForForceUpdate.js");
 const logHeaders = require("./middleware/logHeaders.js");
@@ -26,6 +28,16 @@ function errorHandlerMiddleware(err, req, res, next) {
     res.status(500).send({
         error: CommonMessage.ERROR_MESSAGE_INTERNAL_SERVER_ERROR 
     });
+}
+async function connectTomongoDbConn() {
+    try {
+        await connect();
+        console.log("Connected to the database");
+    }
+    catch (error) {
+        console.error("Error connecting to the database:", error);
+        throw error;
+    }
 }
 async function setupMiddleware() {
     try {
@@ -58,6 +70,7 @@ async function setupMiddleware() {
         app.use(rateLimiter_block_account);
 
         app.use(morgan("combined"));
+        await connectTomongoDbConn();
         // Error handling middleware
         app.use(errorHandlerMiddleware);
         // await createRedisClient();
