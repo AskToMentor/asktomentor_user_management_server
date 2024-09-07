@@ -2,20 +2,14 @@
 
 const RolesEnum = {
     ADMIN: 50,
-    EMPLOYEES: 5,
-    READ_ONLY: 0,
-    TICKETING_AGENT: 4,
-    TOUR_OPERATOR: 3,
-    USER: 1,
-    VENDOR: 2
+    MENTEE: 1,
+    MENTOR: 2,
+    READ_ONLY: 0
 };
 const RolesEnumNumber = {
     0: "READ_ONLY",
-    1: "USER",
-    2: "VENDOR",
-    3: "TOUR_OPERATOR",
-    4: "TICKETING_AGENT",
-    5: "EMPLOYEES",
+    1: "MENTEE",
+    2: "MENTOR",
     50: "ADMIN"
 };
 

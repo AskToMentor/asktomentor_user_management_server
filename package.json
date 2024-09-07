@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/index.js",
-    "schema-modules": "git clone --recurse-submodules https://github.com/Hksoft-code/railkafeschema.git && mkdir -p src/models && mv railkafeschema/src/models/* src/models && mkdir -p src/config && mv railkafeschema/src/config/* src/config/ && mv railkafeschema/src/services/sequelizeHooks/* src/services/sequelizeHooks/&& rm -rf railkafeschema/",
-    "schema-modules-window": "git clone --recurse-submodules https://github.com/Hksoft-code/railkafeschema.git && mkdir src\\models && move railkafeschema\\src\\models\\* src\\models && mkdir src\\config && move railkafeschema\\src\\config\\* src\\config && move railkafeschema\\src\\services\\sequelizeHooks\\* src\\services\\sequelizeHooks\\ && rd /s /q railkafeschema\\"
+    "schema-modules": "git clone --recurse-submodules https://github.com/AskToMentor/asktomentor_dbschema.git && mkdir -p src/models && mv asktomentor_dbschema/src/models/* src/models && rm -rf asktomentor_dbschema/",
+    "schema-modules-window": "git clone --recurse-submodules https://github.com/AskToMentor/asktomentor_dbschema.git && mkdir src\\models && move asktomentor_dbschema\\src\\models\\* src\\models && rd /s /q asktomentor_dbschema\\"
   },
   "engines": {
     "node": "20"

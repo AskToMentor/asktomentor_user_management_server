@@ -25,15 +25,17 @@ const createJwtToken = async(data, ip, origin, userAgent, platform) => {
                 userAgent: userAgent
             },
             method: "POST",
-            url: `${basicConfigurationObject.AUTH_SERVER_URL}/api/v1/admin/createToken`
+            // url: `${(basicConfigurationObject.NODE_ENV.toLowerCase()!=='development')?basicConfigurationObject.AUTH_SERVER_URL}/api/v1/user/createToken`
+            url: (basicConfigurationObject.NODE_ENV.toLowerCase() !== "development") ? `${basicConfigurationObject.AUTH_SERVER_URL}/api/v1/user/createToken` : "http://localhost:6000/api/v1/user/createToken"
         };
 
-        console.log("payload", paylod);
-        let response = await axios(paylod);
+        const response = await axios(paylod);
 
-        response = ((typeof response) === "string" ) ? JSON.parse(response.data) : response.data;
+        console.log("payload", paylod, basicConfigurationObject.NODE_ENV, response.data);
 
-        return response.data.token;
+        const newresponse = ((typeof response.data.data) === "string" ) ? JSON.parse(response.data.data) : response.data.data;
+
+        return newresponse.token;
     }
     catch (error) {
         console.error("Creating Errror", error); 

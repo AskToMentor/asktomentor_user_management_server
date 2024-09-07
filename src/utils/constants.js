@@ -40,6 +40,7 @@ const basicConfigurationObject  = {
     LOGIN_EMAIL_RESTRICT_KEY: process.env.LOGIN_EMAIL_RESTRICT_KEY,
     MONGODB_URI: process.env.MONGODB_URI,
     MYSQL_URI: process.env.MYSQL_URI,
+    NODE_ENV: process.env.NODE_ENV,
     PASSWORD_SECRET_KEY: process.env.PASSWORD_SECRET_KEY,
     PORT_NUMBER: process.env.PORT,
     RABBIT_MQ_URL: process.env.RABBIT_MQ_URL,
