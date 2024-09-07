@@ -5,8 +5,11 @@ const  {
 } = require( "express");
 
 const router = Router();
+const  authenticateJwtMiddleware = require( "../middleware/authenticateJwtMiddleware.js");
+
 const register = require("../controllers/register.controller");
 const login = require("../controllers/login.controller");
+const getCurrentUser = require("../controllers/getCurrentUser.controller");
 
 router.route("/").get((req, res) => {
     res.status(200).json({
@@ -17,4 +20,5 @@ router.route("/").get((req, res) => {
 
 router.route("/register").post(register);
 router.route("/login").post(login);
+router.route("/getCurrentUser").get(authenticateJwtMiddleware, getCurrentUser);
 module.exports = router;

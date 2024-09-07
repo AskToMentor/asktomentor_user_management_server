@@ -102,7 +102,9 @@ const register = asyncHandler (async (req, res) => {
         await session.commitTransaction();
 
         return res.status(201).json(
-            new ApiResponse(statusCodeObject.HTTP_STATUS_OK, errorAndSuccessCodeConfiguration.HTTP_STATUS_OK, {}, "User Registered Successfully")
+            new ApiResponse(statusCodeObject.HTTP_STATUS_OK, errorAndSuccessCodeConfiguration.HTTP_STATUS_OK, {
+                userId
+            }, "User Registered Successfully")
         );
     }
     catch (error) {

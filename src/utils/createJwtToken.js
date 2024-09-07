@@ -31,8 +31,6 @@ const createJwtToken = async(data, ip, origin, userAgent, platform) => {
 
         const response = await axios(paylod);
 
-        console.log("payload", paylod, basicConfigurationObject.NODE_ENV, response.data);
-
         const newresponse = ((typeof response.data.data) === "string" ) ? JSON.parse(response.data.data) : response.data.data;
 
         return newresponse.token;

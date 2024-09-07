@@ -23,17 +23,20 @@ const authenticateJwtMiddleware =  async(req, res, next) => {
                 origin: origin,
                 originalUrl: originalUrl,
                 platform: platform,
-                server: "ADMIN_SERVER",
+                server: "USER_SERVER",
                 userAgent: userAgent
             },
             method: "POST",
-            url: `${basicConfigurationObject.AUTH_SERVER_URL}/api/v1/admin/authenticate`
+            // url: `${basicConfigurationObject.AUTH_SERVER_URL}/api/v1/user/authenticate`
+            url: (basicConfigurationObject.NODE_ENV.toLowerCase() !== "development") ? `${basicConfigurationObject.AUTH_SERVER_URL}/api/v1/user/authenticate` : "http://localhost:6000/api/v1/user/authenticate"
+
         };
 
-        let response = await axios(options);
+        const response = await axios(options);
 
-        response = ((typeof response) === "string" ) ? JSON.parse(response.data) : response.data;
-        req.decoded = response.data.encryptObj;
+        const newResponse = ((typeof response.data.data) === "string" ) ? JSON.parse(response.data.data) : response.data.data;
+
+        req.decoded = newResponse.encryptObj;
         next();
     }
     catch (error) {
