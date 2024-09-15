@@ -8,7 +8,7 @@ const {
     basicConfigurationObject, CommonMessage, registerMessage, statusCodeObject, errorAndSuccessCodeConfiguration
 } = require( "../utils/constants.js");
 
-const ApiResponse = require( "../utils/_apiSuccess.js");
+const ApiResponse = require( "../utils/apiSuccess.js");
 const {
     getNewMongoSession
 } = require( "../configuration/dbConnection.js");

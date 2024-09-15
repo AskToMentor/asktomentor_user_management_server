@@ -8,7 +8,7 @@ const {
     CommonMessage, registerMessage, statusCodeObject, errorAndSuccessCodeConfiguration, loginMessage
 } = require( "../utils/constants.js");
 
-const ApiResponse = require( "../utils/_apiSuccess.js");
+const ApiResponse = require( "../utils/apiSuccess.js");
 
 const getCurrentUser = asyncHandler (async (req, res) => {
     console.log("getCurrentUser working");
