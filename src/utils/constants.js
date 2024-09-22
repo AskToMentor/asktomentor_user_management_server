@@ -70,9 +70,25 @@ const statusCodeObject = {
     HTTP_STATUS_UNAUTHORIZED: 401,
     HTTP_UNPROCESSABLE_ENTITY: 422
 };
+const CommonMessage  = {
+    PROFILE_IMAGE_UPLOADED_SUCCESSFULLY: "Profile Image Uploaded Successfully"
+};
+
+const loginMessage = {
+    ACCOUNT_BLOCKED: "Your Account is Blocked Please Contact Our Support",
+    ACCOUNT_VERIFICATION_PENDING: "Your Account Is Not Verified",
+    EITHER_PHONE_NUMBER_OR_PASSWORD_WRONG: "Either Email/Username or Password Wrong",
+    ERROR_PASSWORD_VALIDATION: "At least 1 uppercase, 1 lowercase, 1 number, 1 special character and minimum 8 characters required.",
+    ERROR_USER_NOT_FOUND: "User Not Found",
+    LOGIN_OTP_SENT_SUCCESSFULLY: "login OTP sent successfully",
+    PASSWORD_AND_CURRENT_PASSWORD_WRONG: "Password And Current password is wrong",
+    USER_LOGGEDIN: "User Logined Successfully"
+};
 
 module.exports = {
     basicConfigurationObject,
+    CommonMessage,
     errorAndSuccessCodeConfiguration,
+    loginMessage,
     statusCodeObject
 };

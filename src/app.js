@@ -17,7 +17,7 @@ const {
     connect
 } = require ("./configuration/dbConnection.js");
 // const helper =require("./utils/helper.js");
-// const checkForForceUpdate = require("./middleware/checkForForceUpdate.js");
+const checkForPlatform = require("./middleware/checkForPlatform.js");
 const logHeaders = require("./middleware/logHeaders.js");
 // const createRedisClient = require("./configuration/redis.js");
 const app = express();
@@ -53,7 +53,7 @@ async function setupMiddleware() {
         // app.use(cors(corsOptions));
         app.use(cors());
         app.use(helmet());
-        // app.use(checkForForceUpdate);
+        app.use(checkForPlatform);
         app.use(express.static("public"));
         app.use(express.json({
             limit: "8mb" 

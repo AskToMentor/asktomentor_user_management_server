@@ -108,7 +108,7 @@ const login = asyncHandler (async (req, res) => {
         return res.status(200).json(
             new ApiResponse(statusCodeObject.HTTP_STATUS_OK, errorAndSuccessCodeConfiguration.HTTP_STATUS_OK, {
                 token
-            }, loginMessage.LOGIN_OTP_SENT_SUCCESSFULLY)
+            }, loginMessage.USER_LOGGEDIN)
         );
     }
     catch (error) {

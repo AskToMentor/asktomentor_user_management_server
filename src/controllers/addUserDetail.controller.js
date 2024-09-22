@@ -34,7 +34,7 @@ const addUserDetail = asyncHandler (async (req, res) => {
 
         console.log("user", user);
 
-        if (!fieldValidator(user)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, en.common.userNotFound);
+        if (fieldValidator(user)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, en.common.userNotFound);
 
         const userObj = {
             faceBookId,
@@ -57,6 +57,8 @@ const addUserDetail = asyncHandler (async (req, res) => {
                 
         if (!fieldValidator(skills))
             userObj.skills = skills;
+
+        console.log("userObj", userObj);
 
         await User.findOneAndUpdate({
             userId

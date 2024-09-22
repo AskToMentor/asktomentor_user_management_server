@@ -73,8 +73,14 @@ const userSchema = new mongoose.Schema(
             default: "Pending",
             type: String
         },
+        faceBookId: {
+            type: String
+        },
         firstName: {
             required: false,
+            type: String
+        },
+        instagramId: {
             type: String
         },
         isDocumentUploaded: {
@@ -86,13 +92,15 @@ const userSchema = new mongoose.Schema(
             required: false,
             type: String
         },
+        
         linkdein_full_name: {
             type: String
         },
+
         loginCount: {
             type: Number
         },
-        
+
         password: {
             required: true,
             type: String
@@ -113,31 +121,44 @@ const userSchema = new mongoose.Schema(
         profileViedoUrl: {
             type: String
         },
-
+        
         role: {
             default: RolesEnum.USER,
             type: Number
         },
-
+        
         salt: {
             type: String
         },
         
+        selfIntroDesc: {
+            type: String
+        },
+
+        skills: {
+            type: Array
+        },
+
         stateCode: {
             required: false,
             type: String
+        },
+
+        twitterId: {
+            type: String
+        },
+        
+        userId: {
+            required: true,
+            type: String,
+            unique: true
         },
         // monthNumber: {
         //     required: true,
         //     type: Number
         // }, 
-        user_name: {
+        userName: {
             type: String
-        },
-        userId: {
-            required: true,
-            type: String,
-            unique: true
         },
         verified: {
             default: "Pending",

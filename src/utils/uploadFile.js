@@ -5,7 +5,7 @@ const AWS = require("aws-sdk");
 const {
     basicConfigurationObject 
 } = require("./constants.js");
-const customEndpoint = "https://assets.railkafe.com";
+const customEndpoint = "https://assets.asktomentor.com";
 
 AWS.config.update({
     accessKeyId: basicConfigurationObject.AWS_S3_ACCESS_KEY_ID,

@@ -40,7 +40,7 @@ const authenticateJwtMiddleware =  async(req, res, next) => {
         next();
     }
     catch (error) {
-        console.error("Error while Login User", error.message);
+        console.error("Error while Login User", error);
 
         if (error instanceof ApiError) {
             console.log("Api Error instance");
