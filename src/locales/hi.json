@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "सफल डेटा लाया गया"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "विवरण सफलतापूर्वक सहेजा गया"
+    },
+    "common": {
+        "OTPRequired": "ओटीपी आवश्यक है",
+        "Unauthenticated": "अपुष्ट",
+        "UserIdRequired": "उपयोगकर्ता आईडी आवश्यक है",
+        "VIPUserNotFound": "वीआईपी उपयोगकर्ता नहीं मिला",
+        "accountBlocked": "खाता ब्लॉक कर दिया गया है",
+        "allFieldsMandatory": "सभी फील्ड ज़रूरी हैं",
+        "attachmentUploadError": "अनुलग्नक अपलोड करते समय त्रुटि",
+        "barCodeGenerationSuccess": "सफलतापूर्वक जनरेट किया गया कोड, बारकोड और फॉर्मेटेडकी",
+        "customerNotFound": "ग्राहक नहीं मिला",
+        "dataDeleted": "डेटा हटाया गया सफल",
+        "dataFetched": "डेटा सफलतापूर्वक प्राप्त किया गया",
+        "dataSaved": "डेटा सहेजा गया सफलतापूर्वक",
+        "detailsFetched": "विवरण सफलतापूर्वक लाया गया",
+        "emailAlreadyExists": "ईमेल पहले से मौजूद है",
+        "emailAlreadyUsed": "बशर्ते ईमेल पता पहले से ही उपयोग में हो",
+        "emailAlreadyVerified": "ईमेल पहले ही सत्यापित है.",
+        "emailLinkExpired": "ईमेल सत्यापन लिंक समाप्त हो गया है.",
+        "emailVerificationLinkResent": "ईमेल सत्यापन लिंक पुनः भेजा गया है",
+        "enabling2FAError": "2FA सक्षम करते समय कुछ गलत हो गया",
+        "enablingGAuthError": " G-Auth सक्षम करते समय कुछ गलत हो गया",
+        "expiredOTP": "ओटीपी समाप्त हो गया है.",
+        "googleAuthCodeMandatory": "इस खाते के लिए Google प्रमाणक कोड अनिवार्य है",
+        "healthyStatus": "स्वस्थ",
+        "invalidCustomer": "अमान्य ग्राहक",
+        "invalidEmail": "अमान्य ईमेल पता।",
+        "invalidEmailAddress": "अमान्य ईमेल पता",
+        "invalidEmailAddressInput": "कृपया सही ईमेल पता दें",
+        "invalidGAuthCode": "अमान्य Google प्रमाणीकरण कोड",
+        "invalidInput": "अमान्य निवेश",
+        "invalidLink": "यह लिंक अमान्य है",
+        "invalidParentReferralCode": "अमान्य अभिभावक रेफरल कोड",
+        "invalidRecaptcha": "अमान्य रीकैप्चा",
+        "invalidReferralCode": "अमान्य रेफरल कोड.",
+        "invalidVerificationUrl": "अमान्य सत्यापन यूआरएल.",
+        "inviteCodeNotExists": "आमंत्रण कोड मौजूद नहीं है",
+        "limitExceeds": "आपकी सीमा पार हो गई",
+        "linkExpired": "पासवर्ड भूल जाएं लिंक की समय सीमा समाप्त हो गई है.",
+        "loginSuccess": "सफलतापूर्वक लॉग इन हो चुका है",
+        "malwarePractice": "आप मैलवेयर प्रेटिस की कोशिश कर रहे हैं",
+        "maximumAttempts": "अधिकतम प्रयास पूरे हो गए, कृपया सहायता से संपर्क करें",
+        "metamaskAddressAlreadyExists": "पता पहले से मौजूद है",
+        "noRequestInitiated": "कोई लॉगिन अनुरोध शुरू नहीं किया गया था",
+        "noUserFound": "कोई उपयोगकर्ता नहीं मिला",
+        "notAuthorisedToSessionTerminate": "इस सत्र को समाप्त करने के लिए अधिकृत नहीं है",
+        "otpSentTo": "पर ओटीपी भेज दिया गया है",
+        "passwordMismatch": "नया पासवर्ड कन्फर्म पासवर्ड से मेल नहीं खाता।",
+        "passwordValidation": "कम से कम 1 अपरकेस, 1 लोअरकेस, 1 संख्या, 1 विशेष वर्ण और न्यूनतम 8 वर्ण आवश्यक हैं।",
+        "referralCodeNotExists": "रेफरल कोड मौजूद नहीं है",
+        "referralNotFound": "रेफरल नहीं मिला",
+        "requestExceedsError": "बहुत सारे अनुरोध। कृपया बाद में पुन: प्रयास करें।",
+        "resetPasswordLinkSent": "पासवर्ड रीसेट लिंक भेज दिया गया है",
+        "selectRecaptcha": "कृपया रीकैप्चा चुनें",
+        "selectTermsAndConditions": "कृपया नियम एवं शर्तें चुनें",
+        "sessionCreationSuccess": "सत्र सफलतापूर्वक बनाया गया",
+        "sessionDetailNotFound": "उपयोगकर्ता सत्र विवरण शून्य है",
+        "sessionNotExists": "सत्र मौजूद नहीं है",
+        "sessionTerminationSuccess": "आपने इस सत्र को सफलतापूर्वक समाप्त कर दिया है",
+        "somethingWentWrong": "कुछ गलत हो गया",
+        "tryCorrectEmail": "कृपया सही ईमेल पता दर्ज करें",
+        "tryDifferentEmail": "कृपया किसी भिन्न ईमेल पते से प्रयास करें.",
+        "updateApp": "कृपया बेहतर अनुभव के लिए अपडेट करें",
+        "userNotExists": "उपयोगकर्ता मौजूद नहीं है",
+        "userNotFound": "उपयोगकर्ता नहीं मिला",
+        "usernameAlreadyExists": "उपयोगकर्ता नाम पहले से मौजूद",
+        "usernameValidation": "उपयोगकर्ता नाम अक्षरांकीय होना चाहिए",
+        "verifyEmail": "कृपया अपना ईमेल सत्यापित करें",
+        "wrongAuthCode": "ग़लत प्रमाणीकरण कोड",
+        "wrongAutheticationCode": "ग़लत प्रमाणीकरण कोड",
+        "wrongAutheticationCodeOrPassword": "ग़लत प्रमाणीकरण कोड/पासवर्ड",
+        "wrongEmailOrPassword": "ईमेल या पासवर्ड ग़लत है.",
+        "wrongEmailOrUsername": "ईमेल/उपयोगकर्ता नाम या पासवर्ड ग़लत है",
+        "wrongOTP": "गलत ओटीपी"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "रेफरल कोड पहले से मौजूद है",
+        "referralCodeSaved": "डेटा सहेजा गया सफल"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA सफलतापूर्वक अक्षम किया गया"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "उपयोगकर्ता सफलतापूर्वक पंजीकृत!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "2FA की वर्तमान स्थिति सफलतापूर्वक प्राप्त की गई"
+    },
+    "otpVerify": {
+        "loginSuccess": "सफलतापूर्वक लॉग इन हो चुका है!"
+    },
+    "register": {
+        "userRegistrationSuccess": "उपयोगकर्ता रजिस्टर सफल"
+    },
+    "updatePassword": {
+        "passwordUpdated": "पासवर्ड सफलतापूर्वक बदल दिया गया है!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Google प्रमाणीकरण सफलतापूर्वक सक्षम किया गया"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "کامیاب ڈیٹا حاصل کیا گیا۔"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "تفصیل کامیابی کے ساتھ محفوظ ہو گئی۔"
+    },
+    "common": {
+        "OTPRequired": "Otp درکار ہے۔",
+        "Unauthenticated": "غیر مستند",
+        "UserIdRequired": "یوزر آئی ڈی درکار ہے۔",
+        "VIPUserNotFound": "وی آئی پی صارف نہیں ملا",
+        "accountBlocked": "اکاؤنٹ بلاک ہے۔",
+        "allFieldsMandatory": "تمام فیلڈز درکار ہیں۔",
+        "attachmentUploadError": "منسلکہ اپ لوڈ کرتے وقت خرابی۔",
+        "barCodeGenerationSuccess": "کوڈ، بار کوڈ اور فارمیٹ شدہ کلی کو کامیابی کے ساتھ تیار کیا گیا۔",
+        "customerNotFound": "گاہک نہیں ملا",
+        "dataDeleted": "ڈیٹا کو کامیابی سے حذف کر دیا گیا۔",
+        "dataFetched": "ڈیٹا کامیابی سے حاصل کیا گیا۔",
+        "dataSaved": "ڈیٹا کو کامیابی سے محفوظ کر لیا گیا۔",
+        "detailsFetched": "تفصیلات کامیابی سے حاصل کی گئیں۔",
+        "emailAlreadyExists": "ای میل پہلے سے موجود ہے۔",
+        "emailAlreadyUsed": "فراہم کردہ ای میل ایڈریس پہلے ہی استعمال میں ہے۔",
+        "emailAlreadyVerified": "ای میل پہلے ہی تصدیق شدہ ہے۔",
+        "emailLinkExpired": "ای میل تصدیقی لنک کی میعاد ختم ہو گئی ہے۔",
+        "emailVerificationLinkResent": "ای میل تصدیقی لنک کو دوبارہ بھیج دیا گیا ہے۔",
+        "enabling2FAError": "2FA کو فعال کرتے وقت کچھ غلط ہو گیا۔",
+        "enablingGAuthError": " G-Auth کو فعال کرتے وقت کچھ غلط ہو گیا۔",
+        "expiredOTP": "OTP کی میعاد ختم ہو گئی ہے۔",
+        "googleAuthCodeMandatory": "اس اکاؤنٹ کے لیے Google Authenticator کوڈ لازمی ہے۔",
+        "healthyStatus": "صحت مند",
+        "invalidCustomer": "غلط گاہک",
+        "invalidEmail": "غلط ای میل ایڈریس.",
+        "invalidEmailAddress": "غلط ای میل ایڈریس",
+        "invalidEmailAddressInput": "براہ کرم درست ای میل ایڈریس درج کریں۔",
+        "invalidGAuthCode": "غلط Google تصدیقی کوڈ",
+        "invalidInput": "غلط ان پٹ",
+        "invalidLink": "یہ لنک غلط ہے۔",
+        "invalidParentReferralCode": "غلط پیرنٹ ریفرل کوڈ",
+        "invalidRecaptcha": "غلط recaptcha",
+        "invalidReferralCode": "غلط ریفرل کوڈ۔",
+        "invalidVerificationUrl": "غلط تصدیقی یو آر ایل۔",
+        "inviteCodeNotExists": "دعوتی کوڈ موجود نہیں ہے۔",
+        "limitExceeds": "آپ کی حد سے تجاوز کر گیا۔",
+        "linkExpired": "پاس ورڈ بھول جائیں لنک کی میعاد ختم ہو چکی ہے۔",
+        "loginSuccess": "کامیابی سے لاگ ان ہو گیا۔",
+        "malwarePractice": "آپ مالویئر پریکٹس کی کوشش کر رہے ہیں۔",
+        "maximumAttempts": "زیادہ سے زیادہ کوششیں ہو گئیں، براہ کرم سپورٹ سے رابطہ کریں۔",
+        "metamaskAddressAlreadyExists": "پتہ پہلے سے موجود ہے۔",
+        "noRequestInitiated": "لاگ ان کی کوئی درخواست شروع نہیں کی گئی۔",
+        "noUserFound": "کوئی صارف نہیں ملا",
+        "notAuthorisedToSessionTerminate": "اس سیشن کو ختم کرنے کا مجاز نہیں ہے۔",
+        "otpSentTo": "کو OTP بھیج دیا گیا ہے۔",
+        "passwordMismatch": "نیا پاس ورڈ تصدیق شدہ پاس ورڈ سے میل نہیں کھاتا۔",
+        "passwordValidation": "کم از کم 1 بڑے، 1 چھوٹے، 1 نمبر، 1 خصوصی حرف اور کم از کم 8 حروف درکار ہیں۔",
+        "referralCodeNotExists": "ریفرل کوڈ موجود نہیں ہے۔",
+        "referralNotFound": "حوالہ نہیں ملا",
+        "requestExceedsError": "بہت زیادہ درخواستیں، دوبارہ کوشش کریں.",
+        "resetPasswordLinkSent": "پاس ورڈ ری سیٹ کرنے کا لنک بھیج دیا گیا ہے۔",
+        "selectRecaptcha": "براہ کرم recaptcha منتخب کریں۔",
+        "selectTermsAndConditions": "براہ کرم شرائط و ضوابط کا انتخاب کریں۔",
+        "sessionCreationSuccess": "سیشن کامیابی کے ساتھ بنایا گیا۔",
+        "sessionDetailNotFound": "صارف کے سیشن کی تفصیلات کالعدم ہے۔",
+        "sessionNotExists": "سیشن موجود نہیں ہے۔",
+        "sessionTerminationSuccess": "آپ نے اس سیشن کو کامیابی کے ساتھ ختم کر دیا ہے۔",
+        "somethingWentWrong": "کچھ غلط ہو گیا",
+        "tryCorrectEmail": "براہ کرم درست ای میل ایڈریس درج کریں۔",
+        "tryDifferentEmail": "براہ کرم ایک مختلف ای میل ایڈریس کے ساتھ کوشش کریں۔",
+        "updateApp": "بہتر تجربہ کے لیے براہ کرم اپ ڈیٹ کریں۔",
+        "userNotExists": "صارف موجود نہیں ہے۔",
+        "userNotFound": "صارف نہیں ملا",
+        "usernameAlreadyExists": "صارف نام پہلے سے موجود ہے۔",
+        "usernameValidation": "صارف نام حروف نمبری ہونا چاہیے۔",
+        "verifyEmail": "براہ کرم اپنے ای میل کی تصدیق کریں۔",
+        "wrongAuthCode": "غلط تصدیقی کوڈ",
+        "wrongAutheticationCode": "غلط تصدیقی کوڈ",
+        "wrongAutheticationCodeOrPassword": "غلط تصدیقی کوڈ/ پاس ورڈ",
+        "wrongEmailOrPassword": "ای میل یا پاس ورڈ غلط ہے۔",
+        "wrongEmailOrUsername": "ای میل/صارف نام یا پاس ورڈ غلط ہے۔",
+        "wrongOTP": "غلط OTP"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "ریفرل کوڈ پہلے سے موجود ہے۔",
+        "referralCodeSaved": "ڈیٹا محفوظ ہو گیا۔"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA کامیابی کے ساتھ غیر فعال ہو گیا۔"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "صارف کامیابی کے ساتھ رجسٹرڈ!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "2FA کی موجودہ حیثیت کامیابی سے حاصل کی گئی۔"
+    },
+    "otpVerify": {
+        "loginSuccess": "کامیابی سے لاگ ان ہو گیا!"
+    },
+    "register": {
+        "userRegistrationSuccess": "صارف رجسٹر کامیاب"
+    },
+    "updatePassword": {
+        "passwordUpdated": "پاس ورڈ کامیابی سے تبدیل کر دیا گیا ہے!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Google توثیق کامیابی کے ساتھ فعال ہو گئی۔"
+    }
+}

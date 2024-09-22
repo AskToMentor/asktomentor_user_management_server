@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "ಯಶಸ್ವಿ ಡೇಟಾವನ್ನು ಪಡೆಯಲಾಗಿದೆ"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "ವಿವರವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ"
+    },
+    "common": {
+        "OTPRequired": "ಒಟಿಪಿ ಅಗತ್ಯವಿದೆ",
+        "Unauthenticated": "ಅನಧಿಕೃತ",
+        "UserIdRequired": "ಬಳಕೆದಾರ ಐಡಿ ಅಗತ್ಯವಿದೆ",
+        "VIPUserNotFound": "ವಿಐಪಿ ಬಳಕೆದಾರರು ಕಂಡುಬಂದಿಲ್ಲ",
+        "accountBlocked": "ಖಾತೆಯನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ",
+        "allFieldsMandatory": "ಅಗತ್ಯವಿರುವ ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳು",
+        "attachmentUploadError": "ಲಗತ್ತನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡುವಾಗ ದೋಷ ಉಂಟಾಗಿದೆ",
+        "barCodeGenerationSuccess": "ಕೋಡ್, ಬಾರ್‌ಕೋಡ್ ಮತ್ತು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಿದ ಕೀಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ",
+        "customerNotFound": "ಗ್ರಾಹಕ ಕಂಡುಬಂದಿಲ್ಲ",
+        "dataDeleted": "ಡೇಟಾವನ್ನು ಅಳಿಸಲಾಗಿದೆ ಯಶಸ್ವಿಯಾಗಿದೆ",
+        "dataFetched": "ಡೇಟಾವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಪಡೆಯಲಾಗಿದೆ",
+        "dataSaved": "ಡೇಟಾವನ್ನು ಉಳಿಸಲಾಗಿದೆ ಯಶಸ್ವಿಯಾಗಿದೆ",
+        "detailsFetched": "ವಿವರಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ತರಲಾಗಿದೆ",
+        "emailAlreadyExists": "ಇಮೇಲ್ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ",
+        "emailAlreadyUsed": "ಒದಗಿಸಿದ ಇಮೇಲ್ ವಿಳಾಸವು ಈಗಾಗಲೇ ಬಳಕೆಯಲ್ಲಿದೆ",
+        "emailAlreadyVerified": "ಇಮೇಲ್ ಅನ್ನು ಈಗಾಗಲೇ ಪರಿಶೀಲಿಸಲಾಗಿದೆ.",
+        "emailLinkExpired": "ಇಮೇಲ್ ಪರಿಶೀಲನೆ ಲಿಂಕ್ ಅವಧಿ ಮೀರಿದೆ.",
+        "emailVerificationLinkResent": "ಇಮೇಲ್ ಪರಿಶೀಲನೆ ಲಿಂಕ್ ಅನ್ನು ಮರುಕಳುಹಿಸಲಾಗಿದೆ",
+        "enabling2FAError": "2FA ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಾಗ ಏನೋ ತಪ್ಪಾಗಿದೆ",
+        "enablingGAuthError": " G-Auth ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಾಗ ಏನೋ ತಪ್ಪಾಗಿದೆ",
+        "expiredOTP": "OTP ಅವಧಿ ಮುಗಿದಿದೆ.",
+        "googleAuthCodeMandatory": "ಈ ಖಾತೆಗೆ Google Authenticator ಕೋಡ್ ಕಡ್ಡಾಯವಾಗಿದೆ",
+        "healthyStatus": "ಆರೋಗ್ಯಕರ",
+        "invalidCustomer": "ಅಮಾನ್ಯ ಗ್ರಾಹಕ",
+        "invalidEmail": "ಅಮಾನ್ಯ ಇಮೇಲ್ ವಿಳಾಸ.",
+        "invalidEmailAddress": "ಅಮಾನ್ಯ ಇಮೇಲ್ ವಿಳಾಸ",
+        "invalidEmailAddressInput": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ",
+        "invalidGAuthCode": "ಅಮಾನ್ಯವಾದ Google ದೃಢೀಕರಣ ಕೋಡ್",
+        "invalidInput": "ಅಮಾನ್ಯ ಇನ್‌ಪುಟ್",
+        "invalidLink": "ಈ ಲಿಂಕ್ ಅಮಾನ್ಯವಾಗಿದೆ",
+        "invalidParentReferralCode": "ಅಮಾನ್ಯ ಪೋಷಕ ರೆಫರಲ್ ಕೋಡ್",
+        "invalidRecaptcha": "ಅಮಾನ್ಯವಾದ ರೀಕ್ಯಾಪ್ಚಾ",
+        "invalidReferralCode": "ಅಮಾನ್ಯವಾದ ರೆಫರಲ್ ಕೋಡ್.",
+        "invalidVerificationUrl": "ಅಮಾನ್ಯ ಪರಿಶೀಲನೆ url.",
+        "inviteCodeNotExists": "ಆಮಂತ್ರಣ ಕೋಡ್ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+        "limitExceeds": "ನಿಮ್ಮ ಮಿತಿ ಮೀರಿದೆ",
+        "linkExpired": "ಪಾಸ್ವರ್ಡ್ ಮರೆತುಬಿಡಿ ಲಿಂಕ್ ಅವಧಿ ಮೀರಿದೆ.",
+        "loginSuccess": "ಯಶಸ್ವಿಯಾಗಿ ಲಾಗ್ ಇನ್ ಮಾಡಲಾಗಿದೆ",
+        "malwarePractice": "ನೀವು ಮಾಲ್‌ವೇರ್ ಅಭ್ಯಾಸಕ್ಕೆ ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೀರಿ",
+        "maximumAttempts": "ಗರಿಷ್ಠ ಪ್ರಯತ್ನಗಳನ್ನು ತಲುಪಿದೆ, ದಯವಿಟ್ಟು ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ",
+        "metamaskAddressAlreadyExists": "ವಿಳಾಸ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ",
+        "noRequestInitiated": "ಯಾವುದೇ ಲಾಗಿನ್ ವಿನಂತಿಯನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗಿಲ್ಲ",
+        "noUserFound": "ಯಾವುದೇ ಬಳಕೆದಾರ ಕಂಡುಬಂದಿಲ್ಲ",
+        "notAuthorisedToSessionTerminate": "ಈ ಅಧಿವೇಶನವನ್ನು ಅಂತ್ಯಗೊಳಿಸಲು ಅಧಿಕಾರವಿಲ್ಲ",
+        "otpSentTo": "ಗೆ OTP ಕಳುಹಿಸಲಾಗಿದೆ",
+        "passwordMismatch": "ದೃಢೀಕರಿಸುವ ಪಾಸ್‌ವರ್ಡ್‌ನೊಂದಿಗೆ ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ.",
+        "passwordValidation": "ಕನಿಷ್ಠ 1 ದೊಡ್ಡಕ್ಷರ, 1 ಸಣ್ಣಕ್ಷರ, 1 ಸಂಖ್ಯೆ, 1 ವಿಶೇಷ ಅಕ್ಷರ ಮತ್ತು ಕನಿಷ್ಠ 8 ಅಕ್ಷರಗಳ ಅಗತ್ಯವಿದೆ.",
+        "referralCodeNotExists": "ರೆಫರಲ್ ಕೋಡ್ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+        "referralNotFound": "ರೆಫರಲ್ ಕಂಡುಬಂದಿಲ್ಲ",
+        "requestExceedsError": "ಹಲವಾರು ವಿನಂತಿಗಳು, ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+        "resetPasswordLinkSent": "ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸುವ ಲಿಂಕ್ ಅನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ",
+        "selectRecaptcha": "ದಯವಿಟ್ಟು recaptcha ಆಯ್ಕೆಮಾಡಿ",
+        "selectTermsAndConditions": "ದಯವಿಟ್ಟು ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+        "sessionCreationSuccess": "ಸೆಷನ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ",
+        "sessionDetailNotFound": "ಬಳಕೆದಾರರ ಅಧಿವೇಶನದ ವಿವರಗಳು ಶೂನ್ಯವಾಗಿದೆ",
+        "sessionNotExists": "ಸೆಷನ್ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+        "sessionTerminationSuccess": "ನೀವು ಈ ಸೆಶನ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಮುಕ್ತಾಯಗೊಳಿಸಿರುವಿರಿ",
+        "somethingWentWrong": "ಏನೋ ತಪ್ಪಾಗಿದೆ",
+        "tryCorrectEmail": "ದಯವಿಟ್ಟು ಸರಿಯಾದ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ",
+        "tryDifferentEmail": "ದಯವಿಟ್ಟು ಬೇರೆ ಇಮೇಲ್ ವಿಳಾಸದೊಂದಿಗೆ ಪ್ರಯತ್ನಿಸಿ.",
+        "updateApp": "ಉತ್ತಮ ಅನುಭವಕ್ಕಾಗಿ ದಯವಿಟ್ಟು ನವೀಕರಿಸಿ",
+        "userNotExists": "ಬಳಕೆದಾರ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ",
+        "userNotFound": "ಬಳಕೆದಾರ ಕಂಡುಬಂದಿಲ್ಲ",
+        "usernameAlreadyExists": "ಬಳಕೆದಾರ ಹೆಸರು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ",
+        "usernameValidation": "ಬಳಕೆದಾರಹೆಸರು ಆಲ್ಫಾನ್ಯೂಮರಿಕ್ ಆಗಿರಬೇಕು",
+        "verifyEmail": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಮೇಲ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ",
+        "wrongAuthCode": "ತಪ್ಪಾದ ದೃಢೀಕರಣ ಕೋಡ್",
+        "wrongAutheticationCode": "ತಪ್ಪಾದ ದೃಢೀಕರಣ ಕೋಡ್",
+        "wrongAutheticationCodeOrPassword": "ತಪ್ಪಾದ ದೃಢೀಕರಣ ಕೋಡ್/ಪಾಸ್ವರ್ಡ್",
+        "wrongEmailOrPassword": "ಇಮೇಲ್ ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್ ತಪ್ಪಾಗಿದೆ.",
+        "wrongEmailOrUsername": "ಇಮೇಲ್/ಬಳಕೆದಾರಹೆಸರು ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್ ತಪ್ಪಾಗಿದೆ",
+        "wrongOTP": "ತಪ್ಪಾದ OTP"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "ರೆಫರಲ್ ಕೋಡ್ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ",
+        "referralCodeSaved": "ಡೇಟಾವನ್ನು ಉಳಿಸಲಾಗಿದೆ ಯಶಸ್ವಿಯಾಗಿದೆ"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA ಯಶಸ್ವಿಯಾಗಿ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "ಬಳಕೆದಾರ ಯಶಸ್ವಿಯಾಗಿ ನೋಂದಾಯಿಸಲಾಗಿದೆ!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "2FA ಪ್ರಸ್ತುತ ಸ್ಥಿತಿಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಪಡೆಯಲಾಗಿದೆ"
+    },
+    "otpVerify": {
+        "loginSuccess": "ಯಶಸ್ವಿಯಾಗಿ ಲಾಗ್ ಇನ್ ಮಾಡಲಾಗಿದೆ!"
+    },
+    "register": {
+        "userRegistrationSuccess": "ಬಳಕೆದಾರರ ನೋಂದಣಿ ಯಶಸ್ವಿಯಾಗಿದೆ"
+    },
+    "updatePassword": {
+        "passwordUpdated": "ಪಾಸ್ವರ್ಡ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಬದಲಾಯಿಸಲಾಗಿದೆ!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Google ದೃಢೀಕರಣವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+    }
+}

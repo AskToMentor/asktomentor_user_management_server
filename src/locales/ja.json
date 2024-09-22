@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "データの取得に成功しました"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "詳細が正常に保存されました"
+    },
+    "common": {
+        "OTPRequired": "OTPは必須です",
+        "Unauthenticated": "未認証",
+        "UserIdRequired": "ユーザーIDは必須です",
+        "VIPUserNotFound": "Vip ユーザーが見つかりません",
+        "accountBlocked": "アカウントがブロックされています",
+        "allFieldsMandatory": "すべてのフィールドが必要",
+        "attachmentUploadError": "添付ファイルのアップロード中にエラーが発生しました",
+        "barCodeGenerationSuccess": "コード、バーコード、formattedKey が正常に生成されました",
+        "customerNotFound": "顧客が見つかりません",
+        "dataDeleted": "データ削除成功",
+        "dataFetched": "データが正常に取得されました",
+        "dataSaved": "データ保存成功",
+        "detailsFetched": "詳細が正常に取得されました",
+        "emailAlreadyExists": "電子メールはすでに存在します",
+        "emailAlreadyUsed": "提供されたメールアドレスはすでに使用されています",
+        "emailAlreadyVerified": "メールアドレスはすでに認証されています。",
+        "emailLinkExpired": "電子メール認証リンクの有効期限が切れています。",
+        "emailVerificationLinkResent": "電子メール確認リンクが再送信されました",
+        "enabling2FAError": "2FA を有効にするときに問題が発生しました",
+        "enablingGAuthError": " G-Auth を有効にするときに問題が発生しました",
+        "expiredOTP": "OTP の有効期限が切れています。",
+        "googleAuthCodeMandatory": "このアカウントには Google 認証コードが必須です",
+        "healthyStatus": "健康",
+        "invalidCustomer": "無効な顧客",
+        "invalidEmail": "無効なメールアドレス。",
+        "invalidEmailAddress": "無効なメールアドレス",
+        "invalidEmailAddressInput": "有効なメールアドレスを入力してください",
+        "invalidGAuthCode": "無効な Google 認証コード",
+        "invalidInput": "無効入力",
+        "invalidLink": "このリンクは無効です",
+        "invalidParentReferralCode": "無効な親紹介コードです",
+        "invalidRecaptcha": "無効な再キャプチャ",
+        "invalidReferralCode": "紹介コードが無効です。",
+        "invalidVerificationUrl": "検証 URL が無効です。",
+        "inviteCodeNotExists": "招待コードが存在しません",
+        "limitExceeds": "制限を超えました",
+        "linkExpired": "パスワードを忘れた場合のリンクの有効期限が切れています。",
+        "loginSuccess": "正常にログインしました",
+        "malwarePractice": "マルウェアの実践を試みています",
+        "maximumAttempts": "最大試行回数に達しました。サポートにお問い合わせください。",
+        "metamaskAddressAlreadyExists": "アドレスはすでに存在します",
+        "noRequestInitiated": "ログイン要求は開始されませんでした",
+        "noUserFound": "ユーザーが見つかりませんでした",
+        "notAuthorisedToSessionTerminate": "このセッションを終了する権限がありません",
+        "otpSentTo": "OTP が送信されました",
+        "passwordMismatch": "新しいパスワードが確認用パスワードと一致しません。",
+        "passwordValidation": "少なくとも 1 つの大文字、1 つの小文字、1 つの数字、1 つの特殊文字、および最低 8 文字が必要です。",
+        "referralCodeNotExists": "紹介コードが存在しません",
+        "referralNotFound": "紹介が見つかりません",
+        "requestExceedsError": "要求が多すぎます。あとで言ってください。",
+        "resetPasswordLinkSent": "パスワードをリセットするリンクが送信されました",
+        "selectRecaptcha": "再キャプチャを選択してください",
+        "selectTermsAndConditions": "利用規約を選択してください",
+        "sessionCreationSuccess": "セッションが正常に作成されました",
+        "sessionDetailNotFound": "ユーザーセッションの詳細がnullです",
+        "sessionNotExists": "セッションが存在しません",
+        "sessionTerminationSuccess": "このセッションは正常に終了しました",
+        "somethingWentWrong": "何か問題が発生しました",
+        "tryCorrectEmail": "正しいメールアドレスを入力してください",
+        "tryDifferentEmail": "別のメールアドレスでお試しください。",
+        "updateApp": "より良いエクスペリエンスを得るために更新してください",
+        "userNotExists": "ユーザーが存在しません",
+        "userNotFound": "ユーザーが見つかりません",
+        "usernameAlreadyExists": "ユーザー名はすでに存在します",
+        "usernameValidation": "ユーザー名は英数字である必要があります",
+        "verifyEmail": "メールアドレスを確認してください",
+        "wrongAuthCode": "間違った認証コード",
+        "wrongAutheticationCode": "認証コードが間違っています",
+        "wrongAutheticationCodeOrPassword": "認証コード/パスワードが間違っています",
+        "wrongEmailOrPassword": "メールアドレスまたはパスワードが間違っています。",
+        "wrongEmailOrUsername": "メールアドレス/ユーザー名またはパスワードが間違っています",
+        "wrongOTP": "間違ったOTP"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "紹介コードはすでに存在します",
+        "referralCodeSaved": "データ保存成功"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA が正常に無効になりました"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "ユーザー登録が完了しました！"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "2FA の現在のステータスが正常に取得されました"
+    },
+    "otpVerify": {
+        "loginSuccess": "ログインに成功しました！"
+    },
+    "register": {
+        "userRegistrationSuccess": "ユーザー登録成功"
+    },
+    "updatePassword": {
+        "passwordUpdated": "パスワードが正常に変更されました。"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Google 認証が正常に有効になりました"
+    }
+}

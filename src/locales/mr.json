@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "यशस्वी डेटा आणला"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "तपशील यशस्वीरित्या सेव्ह केला"
+    },
+    "common": {
+        "OTPRequired": "Otp आवश्यक आहे",
+        "Unauthenticated": "अप्रमाणित",
+        "UserIdRequired": "वापरकर्ता आयडी आवश्यक आहे",
+        "VIPUserNotFound": "व्हीआयपी वापरकर्ता सापडला नाही",
+        "accountBlocked": "खाते ब्लॉक केले आहे",
+        "allFieldsMandatory": "सर्व फील्ड आवश्यक",
+        "attachmentUploadError": "संलग्नक अपलोड करताना त्रुटी",
+        "barCodeGenerationSuccess": "कोड, बारकोड आणि स्वरूपित की यशस्वीरित्या व्युत्पन्न केली",
+        "customerNotFound": "ग्राहक सापडला नाही",
+        "dataDeleted": "डेटा हटवला यशस्वी",
+        "dataFetched": "डेटा यशस्वीरित्या आणला",
+        "dataSaved": "डेटा यशस्वीरित्या जतन केला",
+        "detailsFetched": "तपशील यशस्वीरित्या आणले",
+        "emailAlreadyExists": "ईमेल आधीपासून अस्तित्वात आहे",
+        "emailAlreadyUsed": "प्रदान केलेला ईमेल पत्ता आधीच वापरात आहे",
+        "emailAlreadyVerified": "ईमेल आधीच सत्यापित आहे.",
+        "emailLinkExpired": "ईमेल सत्यापन लिंक कालबाह्य झाली आहे.",
+        "emailVerificationLinkResent": "ईमेल सत्यापन दुवा वर पुन्हा पाठविला गेला आहे",
+        "enabling2FAError": "2FA सक्षम करताना काहीतरी चूक झाली",
+        "enablingGAuthError": " G-Auth सक्षम करताना काहीतरी चूक झाली",
+        "expiredOTP": "OTP कालबाह्य झाला आहे.",
+        "googleAuthCodeMandatory": "या खात्यासाठी Google Authenticator Code अनिवार्य आहे",
+        "healthyStatus": "निरोगी",
+        "invalidCustomer": "अवैध ग्राहक",
+        "invalidEmail": "अवैध ई - मेल पत्ता.",
+        "invalidEmailAddress": "अवैध ई - मेल पत्ता",
+        "invalidEmailAddressInput": "कृपया वैध ईमेल पत्ता प्रविष्ट करा",
+        "invalidGAuthCode": "अवैध Google प्रमाणीकरण कोड",
+        "invalidInput": "अवैध इनपुट",
+        "invalidLink": "ही लिंक अवैध आहे",
+        "invalidParentReferralCode": "अवैध पालक रेफरल कोड",
+        "invalidRecaptcha": "अवैध रिकॅप्चा",
+        "invalidReferralCode": "अवैध रेफरल कोड.",
+        "invalidVerificationUrl": "अवैध सत्यापन url.",
+        "inviteCodeNotExists": "आमंत्रण कोड अस्तित्वात नाही",
+        "limitExceeds": "तुमची मर्यादा ओलांडली",
+        "linkExpired": "पासवर्ड विसरा लिंक कालबाह्य झाली आहे.",
+        "loginSuccess": "यशस्वीरित्या लॉग इन केले",
+        "malwarePractice": "तुम्ही मालवेअर प्रॅक्टिसचा प्रयत्न करत आहात",
+        "maximumAttempts": "जास्तीत जास्त प्रयत्न झाले, कृपया समर्थनाशी संपर्क साधा",
+        "metamaskAddressAlreadyExists": "पत्ता आधीपासून अस्तित्वात आहे",
+        "noRequestInitiated": "कोणतीही लॉगिन विनंती सुरू केलेली नाही",
+        "noUserFound": "कोणताही वापरकर्ता आढळला नाही",
+        "notAuthorisedToSessionTerminate": "हे सत्र समाप्त करण्यासाठी अधिकृत नाही",
+        "otpSentTo": "वर ओटीपी पाठवला आहे",
+        "passwordMismatch": "नवीन पासवर्ड कन्फर्म पासवर्डशी जुळत नाही.",
+        "passwordValidation": "किमान 1 अप्परकेस, 1 लोअरकेस, 1 संख्या, 1 विशेष वर्ण आणि किमान 8 वर्ण आवश्यक आहेत.",
+        "referralCodeNotExists": "रेफरल कोड अस्तित्वात नाही",
+        "referralNotFound": "संदर्भ सापडला नाही",
+        "requestExceedsError": "अत्याधिक विनंत्या. कृपया नंतर पुन्हा प्रयत्न करा.",
+        "resetPasswordLinkSent": "पासवर्ड रीसेट करण्याची लिंक पाठवली आहे",
+        "selectRecaptcha": "कृपया recaptcha निवडा",
+        "selectTermsAndConditions": "कृपया अटी आणि नियम निवडा",
+        "sessionCreationSuccess": "सत्र यशस्वीरित्या तयार केले",
+        "sessionDetailNotFound": "वापरकर्ता सत्र तपशील शून्य आहे",
+        "sessionNotExists": "सत्र अस्तित्वात नाही",
+        "sessionTerminationSuccess": "तुम्ही हे सत्र यशस्वीरित्या समाप्त केले आहे",
+        "somethingWentWrong": "काहीतरी चूक झाली",
+        "tryCorrectEmail": "कृपया योग्य ईमेल पत्ता प्रविष्ट करा",
+        "tryDifferentEmail": "कृपया वेगळ्या ईमेल पत्त्यासह प्रयत्न करा.",
+        "updateApp": "चांगल्या अनुभवासाठी कृपया अपडेट करा",
+        "userNotExists": "वापरकर्ता अस्तित्वात नाही",
+        "userNotFound": "वापरकर्ता सापडला नाही",
+        "usernameAlreadyExists": "वापरकर्तानाव आधीपासून अस्तित्वात आहे",
+        "usernameValidation": "वापरकर्तानाव अल्फान्यूमेरिक असावे",
+        "verifyEmail": "कृपया तुमचा ईमेल सत्यापित करा",
+        "wrongAuthCode": "चुकीचा प्रमाणीकरण कोड",
+        "wrongAutheticationCode": "चुकीचा प्रमाणीकरण कोड",
+        "wrongAutheticationCodeOrPassword": "चुकीचा ऑथेंटिकेशन कोड/पासवर्ड",
+        "wrongEmailOrPassword": "ईमेल किंवा पासवर्ड चुकीचा आहे.",
+        "wrongEmailOrUsername": "ईमेल/वापरकर्तानाव किंवा पासवर्ड चुकीचा आहे",
+        "wrongOTP": "चुकीचा OTP"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "रेफरल कोड आधीपासून अस्तित्वात आहे",
+        "referralCodeSaved": "डेटा जतन करण्यात यश आले"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA यशस्वीरित्या अक्षम केले"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "वापरकर्ता यशस्वीरित्या नोंदणीकृत!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "2FA ची वर्तमान स्थिती यशस्वीरित्या प्राप्त झाली"
+    },
+    "otpVerify": {
+        "loginSuccess": "यशस्वीरित्या लॉग इन केले!"
+    },
+    "register": {
+        "userRegistrationSuccess": "वापरकर्ता नोंदणी यशस्वी"
+    },
+    "updatePassword": {
+        "passwordUpdated": "पासवर्ड यशस्वीरित्या बदलला आहे!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Google प्रमाणीकरण यशस्वीरित्या सक्षम केले"
+    }
+}

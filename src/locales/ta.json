@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "வெற்றிகரமான தரவு பெறப்பட்டது"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "விவரம் வெற்றிகரமாக சேமிக்கப்பட்டது"
+    },
+    "common": {
+        "OTPRequired": "Otp தேவை",
+        "Unauthenticated": "அங்கீகரிக்கப்படாதது",
+        "UserIdRequired": "பயனர் ஐடி தேவை",
+        "VIPUserNotFound": "Vip பயனர் கிடைக்கவில்லை",
+        "accountBlocked": "கணக்கு தடுக்கப்பட்டுள்ளது",
+        "allFieldsMandatory": "அனைத்து புலங்களும் தேவை",
+        "attachmentUploadError": "இணைப்பைப் பதிவேற்றுவதில் பிழை",
+        "barCodeGenerationSuccess": "குறியீடு, பார்கோடு மற்றும் வடிவமைக்கப்பட்ட கீ ஆகியவை வெற்றிகரமாக உருவாக்கப்பட்டன",
+        "customerNotFound": "வாடிக்கையாளரைக் காணவில்லை",
+        "dataDeleted": "தரவு நீக்கப்பட்டது வெற்றிகரமாக",
+        "dataFetched": "தரவு வெற்றிகரமாக எடுக்கப்பட்டது",
+        "dataSaved": "தரவு சேமிக்கப்பட்டது வெற்றிகரமாக",
+        "detailsFetched": "விவரங்கள் வெற்றிகரமாகப் பெறப்பட்டன",
+        "emailAlreadyExists": "மின்னஞ்சல் ஏற்கனவே உள்ளது",
+        "emailAlreadyUsed": "வழங்கப்பட்ட மின்னஞ்சல் முகவரி ஏற்கனவே பயன்பாட்டில் உள்ளது",
+        "emailAlreadyVerified": "மின்னஞ்சல் ஏற்கனவே சரிபார்க்கப்பட்டது.",
+        "emailLinkExpired": "மின்னஞ்சல் சரிபார்ப்பு இணைப்பு காலாவதியானது.",
+        "emailVerificationLinkResent": "மின்னஞ்சல் சரிபார்ப்பு இணைப்பு மீண்டும் அனுப்பப்பட்டது",
+        "enabling2FAError": "2FA ஐ இயக்கும்போது ஏதோ தவறு ஏற்பட்டது",
+        "enablingGAuthError": " G-Authஐ இயக்கும்போது ஏதோ தவறு ஏற்பட்டது",
+        "expiredOTP": "OTP காலாவதியாகிவிட்டது.",
+        "googleAuthCodeMandatory": "இந்தக் கணக்கிற்கு Google அங்கீகரிப்புக் குறியீடு அவசியம்",
+        "healthyStatus": "ஆரோக்கியமான",
+        "invalidCustomer": "தவறான வாடிக்கையாளர்",
+        "invalidEmail": "தவறான மின்னஞ்சல் முகவரி.",
+        "invalidEmailAddress": "தவறான மின்னஞ்சல் முகவரி",
+        "invalidEmailAddressInput": "சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+        "invalidGAuthCode": "தவறான Google அங்கீகாரக் குறியீடு",
+        "invalidInput": "தவறான உள்ளீடு",
+        "invalidLink": "இந்த இணைப்பு தவறானது",
+        "invalidParentReferralCode": "தவறான பெற்றோர் பரிந்துரை குறியீடு",
+        "invalidRecaptcha": "தவறான ரீகேப்ட்சா",
+        "invalidReferralCode": "தவறான பரிந்துரை குறியீடு.",
+        "invalidVerificationUrl": "தவறான சரிபார்ப்பு url.",
+        "inviteCodeNotExists": "அழைப்புக் குறியீடு இல்லை",
+        "limitExceeds": "உங்கள் வரம்பை மீறிவிட்டது",
+        "linkExpired": "கடவுச்சொல்லை மறந்துவிடு இணைப்பு காலாவதியாகிவிட்டது.",
+        "loginSuccess": "வெற்றிகரமாக உள்நுழைந்துள்ளது",
+        "malwarePractice": "நீங்கள் மால்வேர் பயிற்சியை முயற்சிக்கிறீர்கள்",
+        "maximumAttempts": "அதிகபட்ச முயற்சிகள் எட்டப்பட்டுள்ளன, ஆதரவைத் தொடர்பு கொள்ளவும்",
+        "metamaskAddressAlreadyExists": "முகவரி ஏற்கனவே உள்ளது",
+        "noRequestInitiated": "உள்நுழைவு கோரிக்கை எதுவும் தொடங்கப்படவில்லை",
+        "noUserFound": "பயனர் இல்லை",
+        "notAuthorisedToSessionTerminate": "இந்த அமர்வை நிறுத்த அங்கீகாரம் இல்லை",
+        "otpSentTo": "OTP க்கு அனுப்பப்பட்டது",
+        "passwordMismatch": "உறுதிப்படுத்தும் கடவுச்சொல்லுடன் புதிய கடவுச்சொல் பொருந்தவில்லை.",
+        "passwordValidation": "குறைந்தபட்சம் 1 பெரிய எழுத்து, 1 சிறிய எழுத்து, 1 எண், 1 சிறப்பு எழுத்து மற்றும் குறைந்தபட்சம் 8 எழுத்துகள் தேவை.",
+        "referralCodeNotExists": "பரிந்துரை குறியீடு இல்லை",
+        "referralNotFound": "பரிந்துரை கிடைக்கவில்லை",
+        "requestExceedsError": "பல கோரிக்கைகள் உள்ளன, பிறகு முயற்சிக்கவும்.",
+        "resetPasswordLinkSent": "கடவுச்சொல்லை மீட்டமைக்கும் இணைப்பு அனுப்பப்பட்டது",
+        "selectRecaptcha": "தயவுசெய்து ரீகேப்ட்சாவைத் தேர்ந்தெடுக்கவும்",
+        "selectTermsAndConditions": "விதிமுறைகள் மற்றும் நிபந்தனைகளைத் தேர்ந்தெடுக்கவும்",
+        "sessionCreationSuccess": "அமர்வு வெற்றிகரமாக உருவாக்கப்பட்டது",
+        "sessionDetailNotFound": "பயனர் அமர்வு விவரங்கள் பூஜ்யமானது",
+        "sessionNotExists": "அமர்வு இல்லை",
+        "sessionTerminationSuccess": "இந்த அமர்வை வெற்றிகரமாக முடித்துவிட்டீர்கள்",
+        "somethingWentWrong": "ஏதோ தவறு நடந்துவிட்டது",
+        "tryCorrectEmail": "சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+        "tryDifferentEmail": "வேறு மின்னஞ்சல் முகவரியைக் கொண்டு முயற்சிக்கவும்.",
+        "updateApp": "சிறந்த அனுபவத்திற்கு புதுப்பிக்கவும்",
+        "userNotExists": "பயனர் இல்லை",
+        "userNotFound": "பயனர் கிடைக்கவில்லை",
+        "usernameAlreadyExists": "பயனர் பெயர் ஏற்கனவே உள்ளது",
+        "usernameValidation": "பயனர் பெயர் எண்ணெழுத்துக்களாக இருக்க வேண்டும்",
+        "verifyEmail": "உங்கள் மின்னஞ்சலைச் சரிபார்க்கவும்",
+        "wrongAuthCode": "தவறான அங்கீகாரக் குறியீடு",
+        "wrongAutheticationCode": "தவறான அங்கீகாரக் குறியீடு",
+        "wrongAutheticationCodeOrPassword": "தவறான அங்கீகாரக் குறியீடு/கடவுச்சொல்",
+        "wrongEmailOrPassword": "மின்னஞ்சல் அல்லது கடவுச்சொல் தவறானது.",
+        "wrongEmailOrUsername": "மின்னஞ்சல்/பயனர் பெயர் அல்லது கடவுச்சொல் தவறானது",
+        "wrongOTP": "தவறான OTP"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "பரிந்துரை குறியீடு ஏற்கனவே உள்ளது",
+        "referralCodeSaved": "தரவு சேமிக்கப்பட்டது வெற்றிகரமாக"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA வெற்றிகரமாக முடக்கப்பட்டது"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "பயனர் வெற்றிகரமாக பதிவு செய்தார்!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "2FA இன் தற்போதைய நிலை வெற்றிகரமாகப் பெறப்பட்டது"
+    },
+    "otpVerify": {
+        "loginSuccess": "வெற்றிகரமாக உள்நுழைந்துள்ளீர்கள்!"
+    },
+    "register": {
+        "userRegistrationSuccess": "பயனர் பதிவு வெற்றிகரமாக உள்ளது"
+    },
+    "updatePassword": {
+        "passwordUpdated": "கடவுச்சொல் வெற்றிகரமாக மாற்றப்பட்டது!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Google அங்கீகரிப்பு வெற்றிகரமாக இயக்கப்பட்டது"
+    }
+}

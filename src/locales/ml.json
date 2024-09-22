@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "വിജയകരമായ ഡാറ്റ ലഭിച്ചു"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "വിശദാംശങ്ങൾ സംരക്ഷിച്ചു"
+    },
+    "common": {
+        "OTPRequired": "Otp ആവശ്യമാണ്",
+        "Unauthenticated": "ആധികാരികതയില്ലാത്തത്",
+        "UserIdRequired": "ഉപയോക്തൃ ഐഡി ആവശ്യമാണ്",
+        "VIPUserNotFound": "Vip ഉപയോക്താവിനെ കണ്ടെത്തിയില്ല",
+        "accountBlocked": "അക്കൗണ്ട് ബ്ലോക്ക് ചെയ്തു",
+        "allFieldsMandatory": "ആവശ്യമായ എല്ലാ ഫീൽഡുകളും",
+        "attachmentUploadError": "അറ്റാച്ച്‌മെന്റ് അപ്‌ലോഡ് ചെയ്യുമ്പോൾ പിശക്",
+        "barCodeGenerationSuccess": "കോഡ്, ബാർകോഡ്, ഫോർമാറ്റ് ചെയ്ത കീ എന്നിവ വിജയകരമായി ജനറേറ്റ് ചെയ്തു",
+        "customerNotFound": "ഉപഭോക്താവിനെ കണ്ടെത്തിയില്ല",
+        "dataDeleted": "ഇല്ലാതാക്കിയ ഡാറ്റ വിജയകരം",
+        "dataFetched": "ഡാറ്റ വിജയകരമായി ലഭ്യമാക്കി",
+        "dataSaved": "ഡാറ്റ സംരക്ഷിച്ചു വിജയിച്ചു",
+        "detailsFetched": "വിശദാംശങ്ങൾ വിജയകരമായി ലഭ്യമാക്കി",
+        "emailAlreadyExists": "ഇമെയിൽ ഇതിനകം നിലവിലുണ്ട്",
+        "emailAlreadyUsed": "നൽകിയ ഇമെയിൽ വിലാസം ഇതിനകം ഉപയോഗത്തിലുണ്ട്",
+        "emailAlreadyVerified": "ഇമെയിൽ ഇതിനകം സ്ഥിരീകരിച്ചു.",
+        "emailLinkExpired": "ഇമെയിൽ സ്ഥിരീകരണ ലിങ്ക് കാലഹരണപ്പെട്ടു.",
+        "emailVerificationLinkResent": "ഇമെയിൽ സ്ഥിരീകരണ ലിങ്ക് വീണ്ടും അയച്ചു",
+        "enabling2FAError": "2FA പ്രവർത്തനക്ഷമമാക്കുമ്പോൾ എന്തോ കുഴപ്പം സംഭവിച്ചു",
+        "enablingGAuthError": " G-Auth പ്രവർത്തനക്ഷമമാക്കുമ്പോൾ എന്തോ കുഴപ്പം സംഭവിച്ചു",
+        "expiredOTP": "OTP കാലഹരണപ്പെട്ടു.",
+        "googleAuthCodeMandatory": "ഈ അക്കൗണ്ടിന് Google Authenticator കോഡ് നിർബന്ധമാണ്",
+        "healthyStatus": "ആരോഗ്യമുള്ള",
+        "invalidCustomer": "അസാധുവായ ഉപഭോക്താവ്",
+        "invalidEmail": "ഇമെയിൽ വിലാസം അസാധുവാണ്.",
+        "invalidEmailAddress": "ഇമെയിൽ വിലാസം അസാധുവാണ്",
+        "invalidEmailAddressInput": "ദയവായി സാധുവായ ഇമെയിൽ വിലാസം നൽകുക",
+        "invalidGAuthCode": "അസാധുവായ Google പ്രാമാണീകരണ കോഡ്",
+        "invalidInput": "അസാധുവായ ഇൻപുട്ട്",
+        "invalidLink": "ഈ ലിങ്ക് അസാധുവാണ്",
+        "invalidParentReferralCode": "അസാധുവായ രക്ഷാകർതൃ റഫറൽ കോഡ്",
+        "invalidRecaptcha": "അസാധുവായ റീക്യാപ്‌ച",
+        "invalidReferralCode": "റഫറൽ കോഡ് അസാധുവാണ്.",
+        "invalidVerificationUrl": "അസാധുവായ സ്ഥിരീകരണ url.",
+        "inviteCodeNotExists": "ക്ഷണ കോഡ് നിലവിലില്ല",
+        "limitExceeds": "നിങ്ങളുടെ പരിധി കവിഞ്ഞു",
+        "linkExpired": "പാസ്‌വേഡ് മറക്കുക എന്ന ലിങ്ക് കാലഹരണപ്പെട്ടു.",
+        "loginSuccess": "വിജയകരമായി ലോഗിൻ ചെയ്തു",
+        "malwarePractice": "നിങ്ങൾ ക്ഷുദ്രവെയർ പ്രാക്ടീസ് ചെയ്യാൻ ശ്രമിക്കുന്നു",
+        "maximumAttempts": "പരമാവധി ശ്രമങ്ങൾ എത്തി, പിന്തുണയുമായി ബന്ധപ്പെടുക",
+        "metamaskAddressAlreadyExists": "വിലാസം ഇതിനകം നിലവിലുണ്ട്",
+        "noRequestInitiated": "ലോഗിൻ അഭ്യർത്ഥനകളൊന്നും ആരംഭിച്ചിട്ടില്ല",
+        "noUserFound": "ഒരു ഉപയോക്താവിനെയും കണ്ടെത്തിയില്ല",
+        "notAuthorisedToSessionTerminate": "ഈ സെഷൻ അവസാനിപ്പിക്കാൻ അധികാരമില്ല",
+        "otpSentTo": "എന്നതിലേക്ക് OTP അയച്ചു",
+        "passwordMismatch": "സ്ഥിരീകരണ പാസ്‌വേഡുമായി പുതിയ പാസ്‌വേഡ് പൊരുത്തപ്പെടുന്നില്ല.",
+        "passwordValidation": "കുറഞ്ഞത് 1 വലിയക്ഷരം, 1 ചെറിയക്ഷരം, 1 നമ്പർ, 1 പ്രത്യേക പ്രതീകം, കുറഞ്ഞത് 8 പ്രതീകങ്ങൾ എന്നിവ ആവശ്യമാണ്.",
+        "referralCodeNotExists": "റഫറൽ കോഡ് നിലവിലില്ല",
+        "referralNotFound": "റഫറൽ കണ്ടെത്തിയില്ല",
+        "requestExceedsError": "വളരെയധികം അഭ്യർഥനകൾ. ദയവായി കുറച്ച് സമയം കഴിഞ്ഞ് ശ്രമിക്കുക.",
+        "resetPasswordLinkSent": "പാസ്‌വേഡ് പുനഃസജ്ജമാക്കുന്നതിനുള്ള ലിങ്ക് അയച്ചു",
+        "selectRecaptcha": "ദയവായി recaptcha തിരഞ്ഞെടുക്കുക",
+        "selectTermsAndConditions": "ദയവായി നിബന്ധനകളും വ്യവസ്ഥകളും തിരഞ്ഞെടുക്കുക",
+        "sessionCreationSuccess": "സെഷൻ സൃഷ്ടിച്ചു",
+        "sessionDetailNotFound": "ഉപയോക്തൃ സെഷൻ വിശദാംശങ്ങൾ അസാധുവാണ്",
+        "sessionNotExists": "സെഷൻ നിലവിലില്ല",
+        "sessionTerminationSuccess": "നിങ്ങൾ ഈ സെഷൻ വിജയകരമായി അവസാനിപ്പിച്ചു",
+        "somethingWentWrong": "എന്തോ കുഴപ്പം സംഭവിച്ചു",
+        "tryCorrectEmail": "ദയവായി ശരിയായ ഇമെയിൽ വിലാസം നൽകുക",
+        "tryDifferentEmail": "ദയവായി മറ്റൊരു ഇമെയിൽ വിലാസം ഉപയോഗിച്ച് ശ്രമിക്കുക.",
+        "updateApp": "മികച്ച അനുഭവത്തിനായി ദയവായി അപ്‌ഡേറ്റ് ചെയ്യുക",
+        "userNotExists": "ഉപയോക്താവ് നിലവിലില്ല",
+        "userNotFound": "ഉപയോക്താവിനെ കണ്ടെത്തിയില്ല",
+        "usernameAlreadyExists": "ഉപയോക്തൃനാമം ഇതിനകം നിലവിലുണ്ട്",
+        "usernameValidation": "ഉപയോക്തൃനാമം ആൽഫാന്യൂമെറിക് ആയിരിക്കണം",
+        "verifyEmail": "ദയവായി നിങ്ങളുടെ ഇമെയിൽ പരിശോധിക്കുക",
+        "wrongAuthCode": "തെറ്റായ പ്രാമാണീകരണ കോഡ്",
+        "wrongAutheticationCode": "തെറ്റായ പ്രാമാണീകരണ കോഡ്",
+        "wrongAutheticationCodeOrPassword": "തെറ്റായ പ്രാമാണീകരണ കോഡ്/പാസ്‌വേഡ്",
+        "wrongEmailOrPassword": "ഇമെയിൽ അല്ലെങ്കിൽ പാസ്‌വേഡ് തെറ്റാണ്.",
+        "wrongEmailOrUsername": "ഇമെയിൽ/ഉപയോക്തൃനാമം അല്ലെങ്കിൽ പാസ്‌വേഡ് തെറ്റാണ്",
+        "wrongOTP": "തെറ്റായ OTP"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "റഫറൽ കോഡ് ഇതിനകം നിലവിലുണ്ട്",
+        "referralCodeSaved": "ഡാറ്റ സംരക്ഷിച്ചത് വിജയിച്ചു"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA പ്രവർത്തനരഹിതമാക്കി"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "ഉപയോക്താവ് രജിസ്റ്റർ ചെയ്തു!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "2FA യുടെ നിലവിലെ നില വിജയകരമായി ലഭിച്ചു"
+    },
+    "otpVerify": {
+        "loginSuccess": "വിജയകരമായി ലോഗിൻ ചെയ്തു!"
+    },
+    "register": {
+        "userRegistrationSuccess": "ഉപയോക്തൃ രജിസ്റ്റർ വിജയിച്ചു"
+    },
+    "updatePassword": {
+        "passwordUpdated": "പാസ്‌വേഡ് വിജയകരമായി മാറ്റി!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Google പ്രാമാണീകരണം വിജയകരമായി പ്രവർത്തനക്ഷമമാക്കി"
+    }
+}

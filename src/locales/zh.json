@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "成功获取数据"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "详细信息已成功保存"
+    },
+    "common": {
+        "OTPRequired": "需要一次性密码",
+        "Unauthenticated": "未经身份验证",
+        "UserIdRequired": "用户 ID 为必填项",
+        "VIPUserNotFound": "未找到VIP用户",
+        "accountBlocked": "帐户被封锁",
+        "allFieldsMandatory": "所有字段均必填",
+        "attachmentUploadError": "上传附件时出错",
+        "barCodeGenerationSuccess": "已成功生成代码、barCode 和 formattedKey",
+        "customerNotFound": "未找到客户",
+        "dataDeleted": "数据删除成功",
+        "dataFetched": "数据获取成功",
+        "dataSaved": "数据保存成功",
+        "detailsFetched": "详情已成功获取",
+        "emailAlreadyExists": "电子邮件已存在",
+        "emailAlreadyUsed": "提供的电子邮件地址已被使用",
+        "emailAlreadyVerified": "电子邮件已验证。",
+        "emailLinkExpired": "电子邮件验证链接已过期。",
+        "emailVerificationLinkResent": "电子邮件验证链接已重新发送至",
+        "enabling2FAError": "启用 2FA 时出现问题",
+        "enablingGAuthError": " 启用 G-Auth 时出现问题",
+        "expiredOTP": "OTP 已过期。",
+        "googleAuthCodeMandatory": "此帐户必须输入 Google 身份验证器代码",
+        "healthyStatus": "健康",
+        "invalidCustomer": "无效客户",
+        "invalidEmail": "无效的邮件地址。",
+        "invalidEmailAddress": "无效的邮件地址",
+        "invalidEmailAddressInput": "请输入有效的电子邮件地址",
+        "invalidGAuthCode": "谷歌验证码无效",
+        "invalidInput": "输入无效",
+        "invalidLink": "该链接无效",
+        "invalidParentReferralCode": "家长推荐代码无效",
+        "invalidRecaptcha": "验证码无效",
+        "invalidReferralCode": "推荐代码无效。",
+        "invalidVerificationUrl": "验证网址无效。",
+        "inviteCodeNotExists": "邀请码不存在",
+        "limitExceeds": "超出了您的限制",
+        "linkExpired": "忘记密码链接已过期。",
+        "loginSuccess": "登录成功",
+        "malwarePractice": "您尝试恶意软件的练习",
+        "maximumAttempts": "已达到最大尝试次数，请联系支持人员",
+        "metamaskAddressAlreadyExists": "地址已存在",
+        "noRequestInitiated": "没有发起登录请求",
+        "noUserFound": "没有找到用户",
+        "notAuthorisedToSessionTerminate": "无权终止此会话",
+        "otpSentTo": "OTP 已发送至",
+        "passwordMismatch": "新密码与确认密码不匹配。",
+        "passwordValidation": "至少需要 1 个大写字母、1 个小写字母、1 个数字、1 个特殊字符且至少 8 个字符。",
+        "referralCodeNotExists": "推荐码不存在",
+        "referralNotFound": "未找到推荐人",
+        "requestExceedsError": "请求太多，请稍后重试。",
+        "resetPasswordLinkSent": "重置密码链接已发送至",
+        "selectRecaptcha": "请选择验证码",
+        "selectTermsAndConditions": "请选择条款和条件",
+        "sessionCreationSuccess": "会话创建成功",
+        "sessionDetailNotFound": "用户会话详细信息为空",
+        "sessionNotExists": "会话不存在",
+        "sessionTerminationSuccess": "您已成功终止本次会话",
+        "somethingWentWrong": "出了些问题",
+        "tryCorrectEmail": "请输入正确的电子邮件地址",
+        "tryDifferentEmail": "请尝试使用不同的电子邮件地址。",
+        "updateApp": "请更新以获得更好的体验",
+        "userNotExists": "用户不存在",
+        "userNotFound": "未找到用户",
+        "usernameAlreadyExists": "用户名已存在",
+        "usernameValidation": "用户名应该是字母数字",
+        "verifyEmail": "请验证您的电子邮件",
+        "wrongAuthCode": "验证码错误",
+        "wrongAutheticationCode": "验证码错误",
+        "wrongAutheticationCodeOrPassword": "验证码/密码错误",
+        "wrongEmailOrPassword": "电子邮件或密码错误。",
+        "wrongEmailOrUsername": "电子邮件/用户名或密码错误",
+        "wrongOTP": "一次性密码错误"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "推荐码已存在",
+        "referralCodeSaved": "数据保存成功"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA 已成功禁用"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "用户注册成功！"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "已成功获取 2FA 的当前状态"
+    },
+    "otpVerify": {
+        "loginSuccess": "登录成功！"
+    },
+    "register": {
+        "userRegistrationSuccess": "用户注册成功"
+    },
+    "updatePassword": {
+        "passwordUpdated": "密码已更改成功！"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Google 身份验证启用成功"
+    }
+}

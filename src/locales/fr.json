@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "Données récupérées avec succès"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "Détails enregistrés avec succès"
+    },
+    "common": {
+        "OTPRequired": "OTP est requis",
+        "Unauthenticated": "Non authentifié",
+        "UserIdRequired": "L'identifiant de l'utilisateur est requis",
+        "VIPUserNotFound": "Utilisateur VIP introuvable",
+        "accountBlocked": "Le compte est bloqué",
+        "allFieldsMandatory": "Tous les champs sont obligatoires",
+        "attachmentUploadError": "Erreur lors du téléchargement de la pièce jointe",
+        "barCodeGenerationSuccess": "Code généré, code-barres et clé formatée avec succès",
+        "customerNotFound": "Client introuvable",
+        "dataDeleted": "Données supprimées avec succès",
+        "dataFetched": "Données récupérées avec succès",
+        "dataSaved": "Données enregistrées avec succès",
+        "detailsFetched": "Détails récupérés avec succès",
+        "emailAlreadyExists": "L'e-mail existe déjà",
+        "emailAlreadyUsed": "L'adresse e-mail fournie est déjà utilisée",
+        "emailAlreadyVerified": "L'e-mail est déjà vérifié.",
+        "emailLinkExpired": "Le lien de vérification par e-mail a expiré.",
+        "emailVerificationLinkResent": "Le lien de vérification par e-mail a été renvoyé à",
+        "enabling2FAError": "Une erreur s'est produite lors de l'activation de 2FA",
+        "enablingGAuthError": " Une erreur s'est produite lors de l'activation de G-Auth",
+        "expiredOTP": "OTP a expiré.",
+        "googleAuthCodeMandatory": "Le code Google Authenticator est obligatoire pour ce compte",
+        "healthyStatus": "En bonne santé",
+        "invalidCustomer": "Client invalide",
+        "invalidEmail": "Adresse e-mail invalide.",
+        "invalidEmailAddress": "Adresse e-mail invalide",
+        "invalidEmailAddressInput": "Veuillez entrer une adresse e-mail valide",
+        "invalidGAuthCode": "Code d'authentification Google invalide",
+        "invalidInput": "Entrée invalide",
+        "invalidLink": "Ce lien n'est pas valide",
+        "invalidParentReferralCode": "Code de référence parental invalide",
+        "invalidRecaptcha": "Récaptcha invalide",
+        "invalidReferralCode": "Code de parrainage invalide.",
+        "invalidVerificationUrl": "URL de vérification invalide.",
+        "inviteCodeNotExists": "Le code d'invitation n'existe pas",
+        "limitExceeds": "Votre limite dépassée",
+        "linkExpired": "Le lien « Mot de passe oublié » a expiré.",
+        "loginSuccess": "Connecté avec succès",
+        "malwarePractice": "Vous essayez de pratiquer des logiciels malveillants",
+        "maximumAttempts": "Nombre maximum de tentatives atteint, veuillez contacter le support",
+        "metamaskAddressAlreadyExists": "L'adresse existe déjà",
+        "noRequestInitiated": "Aucune demande de connexion n'a été initiée",
+        "noUserFound": "Aucun utilisateur trouvé",
+        "notAuthorisedToSessionTerminate": "Non autorisé à mettre fin à cette session",
+        "otpSentTo": "OTP a été envoyé à",
+        "passwordMismatch": "Le nouveau mot de passe ne correspond pas au mot de passe confirmé.",
+        "passwordValidation": "Au moins 1 majuscule, 1 minuscule, 1 chiffre, 1 caractère spécial et minimum 8 caractères requis.",
+        "referralCodeNotExists": "Le code de parrainage n'existe pas",
+        "referralNotFound": "Référence introuvable",
+        "requestExceedsError": "Il y a trop de demandes. S'il-vous-plait réessayez plus tard.",
+        "resetPasswordLinkSent": "Le lien de réinitialisation du mot de passe a été envoyé à",
+        "selectRecaptcha": "Veuillez sélectionner recaptcha",
+        "selectTermsAndConditions": "Veuillez sélectionner les termes et conditions",
+        "sessionCreationSuccess": "Session créée avec succès",
+        "sessionDetailNotFound": "les détails de la session utilisateur sont nuls",
+        "sessionNotExists": "La session n'existe pas",
+        "sessionTerminationSuccess": "Vous avez terminé avec succès cette session",
+        "somethingWentWrong": "Quelque chose s'est mal passé",
+        "tryCorrectEmail": "Veuillez entrer l'adresse e-mail correcte",
+        "tryDifferentEmail": "Veuillez essayer avec une autre adresse e-mail.",
+        "updateApp": "Veuillez mettre à jour pour une meilleure expérience",
+        "userNotExists": "L'utilisateur n'existe pas",
+        "userNotFound": "Utilisateur non trouvé",
+        "usernameAlreadyExists": "Nom d'utilisateur existe déjà",
+        "usernameValidation": "Le nom d'utilisateur doit être alphanumérique",
+        "verifyEmail": "Veuillez vérifier votre email",
+        "wrongAuthCode": "Mauvais code d'authentification",
+        "wrongAutheticationCode": "Mauvais code d'authentification",
+        "wrongAutheticationCodeOrPassword": "Mauvais code d'authentification/mot de passe",
+        "wrongEmailOrPassword": "L'e-mail ou le mot de passe est erroné.",
+        "wrongEmailOrUsername": "L'e-mail/nom d'utilisateur ou le mot de passe est erroné",
+        "wrongOTP": "Mauvais OTP"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "Le code de parrainage existe déjà",
+        "referralCodeSaved": "Données enregistrées avec succès"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA désactivé avec succès"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "Utilisateur enregistré avec succès !"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "Statut actuel de 2FA récupéré avec succès"
+    },
+    "otpVerify": {
+        "loginSuccess": "Connecté avec succès!"
+    },
+    "register": {
+        "userRegistrationSuccess": "Inscription des utilisateurs réussie"
+    },
+    "updatePassword": {
+        "passwordUpdated": "Le mot de passe a été modifié avec succès !"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Authentification Google activée avec succès"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "విజయవంతమైన డేటా పొందబడింది"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "వివరాలు విజయవంతంగా సేవ్ చేయబడ్డాయి"
+    },
+    "common": {
+        "OTPRequired": "Otp అవసరం",
+        "Unauthenticated": "ప్రామాణీకరించబడలేదు",
+        "UserIdRequired": "వినియోగదారు ఐడి అవసరం",
+        "VIPUserNotFound": "Vip వినియోగదారు కనుగొనబడలేదు",
+        "accountBlocked": "ఖాతా బ్లాక్ చేయబడింది",
+        "allFieldsMandatory": "అన్ని ఫీల్డ్‌లు అవసరం",
+        "attachmentUploadError": "జోడింపును అప్‌లోడ్ చేస్తున్నప్పుడు లోపం",
+        "barCodeGenerationSuccess": "కోడ్, బార్‌కోడ్ మరియు ఫార్మాట్ చేసిన కీ విజయవంతంగా రూపొందించబడ్డాయి",
+        "customerNotFound": "కస్టమర్ కనుగొనబడలేదు",
+        "dataDeleted": "డేటా తొలగించబడింది విజయవంతమైంది",
+        "dataFetched": "డేటా విజయవంతంగా పొందబడింది",
+        "dataSaved": "డేటా విజయవంతంగా సేవ్ చేయబడింది",
+        "detailsFetched": "వివరాలు విజయవంతంగా పొందబడ్డాయి",
+        "emailAlreadyExists": "ఇమెయిల్ ఇప్పటికే ఉంది",
+        "emailAlreadyUsed": "అందించిన ఇమెయిల్ చిరునామా ఇప్పటికే వాడుకలో ఉంది",
+        "emailAlreadyVerified": "ఇమెయిల్ ఇప్పటికే ధృవీకరించబడింది.",
+        "emailLinkExpired": "ఇమెయిల్ ధృవీకరణ లింక్ గడువు ముగిసింది.",
+        "emailVerificationLinkResent": "ఇమెయిల్ ధృవీకరణ లింక్ మళ్లీ పంపబడింది",
+        "enabling2FAError": "2FAని ఎనేబుల్ చేస్తున్నప్పుడు ఏదో తప్పు జరిగింది",
+        "enablingGAuthError": " G-Authని ఎనేబుల్ చేస్తున్నప్పుడు ఏదో తప్పు జరిగింది",
+        "expiredOTP": "OTP గడువు ముగిసింది.",
+        "googleAuthCodeMandatory": "ఈ ఖాతాకు Google Authenticator కోడ్ తప్పనిసరి",
+        "healthyStatus": "ఆరోగ్యకరమైన",
+        "invalidCustomer": "చెల్లని కస్టమర్",
+        "invalidEmail": "చెల్లని ఇమెయిల్ చిరునామా.",
+        "invalidEmailAddress": "చెల్లని ఇమెయిల్ చిరునామా",
+        "invalidEmailAddressInput": "దయచేసి చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి",
+        "invalidGAuthCode": "చెల్లని Google ప్రమాణీకరణ కోడ్",
+        "invalidInput": "చెల్లని ఇన్‌పుట్",
+        "invalidLink": "ఈ లింక్ చెల్లదు",
+        "invalidParentReferralCode": "చెల్లని పేరెంట్ రెఫరల్ కోడ్",
+        "invalidRecaptcha": "చెల్లని రీక్యాప్చా",
+        "invalidReferralCode": "చెల్లని రిఫరల్ కోడ్.",
+        "invalidVerificationUrl": "చెల్లని ధృవీకరణ url.",
+        "inviteCodeNotExists": "ఆహ్వాన కోడ్ ఉనికిలో లేదు",
+        "limitExceeds": "మీ పరిమితి మించిపోయింది",
+        "linkExpired": "పాస్‌వర్డ్ మర్చిపోండి లింక్ గడువు ముగిసింది.",
+        "loginSuccess": "విజయవంతంగా లాగిన్ చేసారు",
+        "malwarePractice": "మీరు మాల్వేర్ ప్రాక్టీస్ కోసం ప్రయత్నిస్తున్నారు",
+        "maximumAttempts": "గరిష్ట ప్రయత్నాలు చేరుకున్నాయి, దయచేసి మద్దతును సంప్రదించండి",
+        "metamaskAddressAlreadyExists": "చిరునామా ఇప్పటికే ఉంది",
+        "noRequestInitiated": "లాగిన్ అభ్యర్థన ఏదీ ప్రారంభించబడలేదు",
+        "noUserFound": "వినియోగదారు కనుగొనబడలేదు",
+        "notAuthorisedToSessionTerminate": "ఈ సెషన్‌ను ముగించడానికి అధికారం లేదు",
+        "otpSentTo": "OTP కి పంపబడింది",
+        "passwordMismatch": "కొత్త పాస్‌వర్డ్ కన్ఫర్మ్ పాస్‌వర్డ్‌తో సరిపోలలేదు.",
+        "passwordValidation": "కనీసం 1 పెద్ద అక్షరం, 1 చిన్న అక్షరం, 1 సంఖ్య, 1 ప్రత్యేక అక్షరం మరియు కనీసం 8 అక్షరాలు అవసరం.",
+        "referralCodeNotExists": "రెఫరల్ కోడ్ ఉనికిలో లేదు",
+        "referralNotFound": "రెఫరల్ కనుగొనబడలేదు",
+        "requestExceedsError": "చాలా అభ్యర్థనలు. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి.",
+        "resetPasswordLinkSent": "పాస్‌వర్డ్ రీసెట్ లింక్ పంపబడింది",
+        "selectRecaptcha": "దయచేసి రీకాప్చాను ఎంచుకోండి",
+        "selectTermsAndConditions": "దయచేసి నిబంధనలు మరియు షరతులను ఎంచుకోండి",
+        "sessionCreationSuccess": "సెషన్ విజయవంతంగా సృష్టించబడింది",
+        "sessionDetailNotFound": "వినియోగదారు సెషన్ వివరాలు శూన్యం",
+        "sessionNotExists": "సెషన్ ఉనికిలో లేదు",
+        "sessionTerminationSuccess": "మీరు ఈ సెషన్‌ను విజయవంతంగా ముగించారు",
+        "somethingWentWrong": "ఎక్కడో తేడ జరిగింది",
+        "tryCorrectEmail": "దయచేసి సరైన ఇమెయిల్ చిరునామాను నమోదు చేయండి",
+        "tryDifferentEmail": "దయచేసి వేరే ఇమెయిల్ చిరునామాతో ప్రయత్నించండి.",
+        "updateApp": "మెరుగైన అనుభవం కోసం దయచేసి అప్‌డేట్ చేయండి",
+        "userNotExists": "వినియోగదారు ఉనికిలో లేరు",
+        "userNotFound": "వినియోగదారుడు కనపడలేదు",
+        "usernameAlreadyExists": "వినియోగదారు పేరు ఇప్పటికే ఉంది",
+        "usernameValidation": "వినియోగదారు పేరు ఆల్ఫాన్యూమరిక్ అయి ఉండాలి",
+        "verifyEmail": "దయచేసి మీ ఇమెయిల్‌ను ధృవీకరించండి",
+        "wrongAuthCode": "తప్పు ప్రమాణీకరణ కోడ్",
+        "wrongAutheticationCode": "తప్పు ప్రమాణీకరణ కోడ్",
+        "wrongAutheticationCodeOrPassword": "తప్పు ప్రమాణీకరణ కోడ్/పాస్‌వర్డ్",
+        "wrongEmailOrPassword": "ఇమెయిల్ లేదా పాస్‌వర్డ్ తప్పు.",
+        "wrongEmailOrUsername": "ఇమెయిల్/యూజర్ పేరు లేదా పాస్‌వర్డ్ తప్పు",
+        "wrongOTP": "తప్పు OTP"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "రెఫరల్ కోడ్ ఇప్పటికే ఉంది",
+        "referralCodeSaved": "డేటా సేవ్ చేయబడింది విజయవంతమైంది"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA విజయవంతంగా నిలిపివేయబడింది"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "వినియోగదారు విజయవంతంగా నమోదు చేసుకున్నారు!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "2FA ప్రస్తుత స్థితి విజయవంతంగా పొందబడింది"
+    },
+    "otpVerify": {
+        "loginSuccess": "విజయవంతంగా లాగిన్ చేసారు!"
+    },
+    "register": {
+        "userRegistrationSuccess": "వినియోగదారు రిజిస్టర్ విజయవంతమైంది"
+    },
+    "updatePassword": {
+        "passwordUpdated": "పాస్‌వర్డ్ విజయవంతంగా మార్చబడింది!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Google ప్రమాణీకరణ విజయవంతంగా ప్రారంభించబడింది"
+    }
+}

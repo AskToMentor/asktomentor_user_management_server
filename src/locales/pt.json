@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "Dados obtidos com sucesso"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "Detalhe salvo com sucesso"
+    },
+    "common": {
+        "OTPRequired": "Otp é obrigatório",
+        "Unauthenticated": "Não autenticado",
+        "UserIdRequired": "O ID do usuário é obrigatório",
+        "VIPUserNotFound": "Usuário VIP não encontrado",
+        "accountBlocked": "A conta está bloqueada",
+        "allFieldsMandatory": "Todos os campos obrigatórios",
+        "attachmentUploadError": "Erro ao enviar anexo",
+        "barCodeGenerationSuccess": "Código gerado, barCode e formattedKey com sucesso",
+        "customerNotFound": "Cliente não encontrado",
+        "dataDeleted": "Dados excluídos com sucesso",
+        "dataFetched": "Dados obtidos com sucesso",
+        "dataSaved": "Dados salvos com sucesso",
+        "detailsFetched": "Detalhes obtidos com sucesso",
+        "emailAlreadyExists": "Email já existe",
+        "emailAlreadyUsed": "O endereço de e-mail fornecido já está em uso",
+        "emailAlreadyVerified": "O e-mail já foi verificado.",
+        "emailLinkExpired": "O link de verificação de e-mail expirou.",
+        "emailVerificationLinkResent": "O link de verificação de e-mail foi reenviado para",
+        "enabling2FAError": "Algo deu errado ao ativar o 2FA",
+        "enablingGAuthError": " Algo deu errado ao ativar o G-Auth",
+        "expiredOTP": "OTP expirou.",
+        "googleAuthCodeMandatory": "O código do Google Authenticator é obrigatório para esta conta",
+        "healthyStatus": "Saudável",
+        "invalidCustomer": "Cliente inválido",
+        "invalidEmail": "Endereço de email invalido.",
+        "invalidEmailAddress": "Endereço de email invalido",
+        "invalidEmailAddressInput": "Por favor insira o endereço de e-mail válido",
+        "invalidGAuthCode": "Código de autenticação do Google inválido",
+        "invalidInput": "Entrada inválida",
+        "invalidLink": "Este link é inválido",
+        "invalidParentReferralCode": "Código de referência dos pais inválido",
+        "invalidRecaptcha": "Recaptcha inválido",
+        "invalidReferralCode": "Código de referência inválido.",
+        "invalidVerificationUrl": "URL de verificação inválido.",
+        "inviteCodeNotExists": "O código de convite não existe",
+        "limitExceeds": "Seu limite foi excedido",
+        "linkExpired": "O link para esquecer a senha expirou.",
+        "loginSuccess": "Conectado com sucesso",
+        "malwarePractice": "Você está tentando praticar malware",
+        "maximumAttempts": "Máximo de tentativas atingido, entre em contato com o suporte",
+        "metamaskAddressAlreadyExists": "O endereço já existe",
+        "noRequestInitiated": "Nenhuma solicitação de login foi iniciada",
+        "noUserFound": "Nenhum usuário encontrado",
+        "notAuthorisedToSessionTerminate": "Não autorizado a encerrar esta sessão",
+        "otpSentTo": "OTP foi enviado para",
+        "passwordMismatch": "A nova senha não corresponde à confirmação da senha.",
+        "passwordValidation": "São necessários pelo menos 1 letra maiúscula, 1 letra minúscula, 1 número, 1 caractere especial e no mínimo 8 caracteres.",
+        "referralCodeNotExists": "Código de referência não existe",
+        "referralNotFound": "Referência não encontrada",
+        "requestExceedsError": "Muitos pedidos. Por favor tente mais tarde.",
+        "resetPasswordLinkSent": "O link de redefinição de senha foi enviado para",
+        "selectRecaptcha": "Por favor selecione recaptcha",
+        "selectTermsAndConditions": "Selecione os termos e condições",
+        "sessionCreationSuccess": "Sessão criada com sucesso",
+        "sessionDetailNotFound": "os detalhes da sessão do usuário são nulos",
+        "sessionNotExists": "Sessão não existe",
+        "sessionTerminationSuccess": "Você encerrou esta sessão com sucesso",
+        "somethingWentWrong": "Algo deu errado",
+        "tryCorrectEmail": "Por favor insira o endereço de e-mail correto",
+        "tryDifferentEmail": "Tente com um endereço de e-mail diferente.",
+        "updateApp": "Atualize para uma melhor experiência",
+        "userNotExists": "Usuário não existe",
+        "userNotFound": "Usuário não encontrado",
+        "usernameAlreadyExists": "Nome de usuário existente",
+        "usernameValidation": "O nome de usuário deve ser alfanumérico",
+        "verifyEmail": "Verifique seu e-mail",
+        "wrongAuthCode": "Código de autenticação errado",
+        "wrongAutheticationCode": "Código de autenticação errado",
+        "wrongAutheticationCodeOrPassword": "Código/senha de autenticação incorretos",
+        "wrongEmailOrPassword": "E-mail ou senha estão errados.",
+        "wrongEmailOrUsername": "E-mail/nome de usuário ou senha estão errados",
+        "wrongOTP": "OTP errado"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "O código de referência já existe",
+        "referralCodeSaved": "Dados salvos com sucesso"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA desativado com sucesso"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "Usuário cadastrado com sucesso!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "Status atual do 2FA obtido com sucesso"
+    },
+    "otpVerify": {
+        "loginSuccess": "Conectado com sucesso!"
+    },
+    "register": {
+        "userRegistrationSuccess": "Cadastro de usuário realizado com sucesso"
+    },
+    "updatePassword": {
+        "passwordUpdated": "A senha foi alterada com sucesso!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Autenticação do Google ativada com sucesso"
+    }
+}

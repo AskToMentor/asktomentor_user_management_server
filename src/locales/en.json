@@ -1,0 +1,106 @@
+{
+    "common": {
+        "somethingWentWrong": "Something went wrong",
+        "invalidInput": "Invalid input",
+        "invalidCustomer": "Invalid customer",
+        "userNotFound": "User not found",
+        "customerNotFound": "Customer not found",
+        "invalidEmailAddress": "Invalid email address",
+        "verifyEmail": "Please verify your email",
+        "otpSentTo": "OTP has been sent to",
+        "tryDifferentEmail": "Please try with a different email address.",
+        "invalidEmailAddressInput": "Please enter valid email address",
+        "selectTermsAndConditions": "Please select terms and conditions",
+        "emailAlreadyUsed": "Provided email address already is in use",
+        "maximumAttempts": "Maximum attempts reached, please contact support",
+        "passwordValidation":"At least 1 uppercase, 1 lowercase, 1 number, 1 special character and minimum 8 characters required.",
+        "usernameValidation":"Username should be alphanumeric",
+        "tryCorrectEmail":"Please enter correct email address",
+        "emailAlreadyExists":"Email Already Exist",
+        "usernameAlreadyExists":"Username Already Exist",
+        "invalidEmail":"Invalid email address.",
+        "invalidVerificationUrl":"Invalid verification url.",
+        "emailAlreadyVerified":"Email is already verified.",
+        "noUserFound":"No user found",
+        "invalidReferralCode":"Invalid referral Code.",
+        "invalidParentReferralCode":"Invalid Parent referral Code",
+        "notAuthorisedToSessionTerminate":"Not authorised to terminate this session",
+        "sessionTerminationSuccess":"You have Successfully Terminated this session",
+        "resetPasswordLinkSent":"Reset password link has been sent to",
+        "emailVerificationLinkResent":"Email verification link has been resent to ",
+        "passwordMismatch":"New Password does not match with confirm password.",
+        "invalidLink":"This link is invalid",
+        "linkExpired":"Forget password link has been expired.",
+        "wrongAutheticationCodeOrPassword":"Wrong Authentication Code/ Password",
+        "wrongAutheticationCode":"Wrong authentication code",
+        "enablingGAuthError":" Something went wrong while enabling G-Auth",
+        "enabling2FAError":"Something went wrong while enabling 2FA",
+        "sessionDetailNotFound":"user session details is null",
+        "malwarePractice":"Your trying to Malware Pratice",
+        "sessionNotExists":"Session Not Exists",
+        "userNotExists":"User Not Exists",
+        "accountBlocked":"Account is blocked",
+        "loginSuccess":"Logged in successfully",
+        "allFieldsMandatory":"All fields required",
+        "wrongEmailOrPassword":"Email or Password is wrong.",
+        "wrongEmailOrUsername":"Email/Username or Password is wrong",
+        "noRequestInitiated":"No login request was initiated",
+        "wrongOTP":"Wrong OTP",
+        "expiredOTP":"OTP has been expired.",
+        "googleAuthCodeMandatory":"Google Authenticator Code is mandatory for this account",
+        "OTPRequired":"Otp is required",
+        "sessionCreationSuccess":"Successfully created Session",
+        "detailsFetched":"Details Fetched successfully",
+        "dataFetched":"Data Fetched successfully",
+        "referralNotFound":"Referral not found",
+        "barCodeGenerationSuccess":"Generated code, barCode and formattedKey successfully",
+        "inviteCodeNotExists":"Invitation code does not exist",
+        "VIPUserNotFound":"Vip user not found",
+        "dataSaved":"Data saved Succesfull",
+        "referralCodeNotExists":"Referral code not Exists",
+        "dataDeleted":"Data deleted Succesful",
+        "selectRecaptcha":"Please select recaptcha",
+        "invalidRecaptcha":"Invalid recaptcha",
+        "invalidGAuthCode":"Invalid Google Authentication Code",
+        "wrongAuthCode":"Wrong Authentication Code",
+        "requestExceedsError":"Too many requests, please try again later.",
+        "attachmentUploadError":"Error while uploading attachment",
+        "Unauthenticated":"Unauthenticated",
+        "UserIdRequired":"User id is required",
+        "updateApp":"Please update for better experience",
+        "emailLinkExpired":"Email verification link has been expired.",
+        "limitExceeds":"Your limit exceeded",
+        "healthyStatus":"Healthy"
+    },
+    "register":{
+        "userRegistrationSuccess":"User register Succesful"
+    },
+    "emailVerify":{
+        "userRegistrationConfirmed":"User successfully registered!"
+    },
+    "updatePassword":{
+        "passwordUpdated":"Password has been changed successfully!"
+    },
+    "disableGoogleAuthentication":{
+        "disableGoogleAuthenticationSuccess":"Google 2FA disabled successfully"
+    },
+    "googleAuthenticationStatus":{
+        "googleAuthenticationStatusSuccess":"Current status of 2FA fetched successfully"
+    },
+    "verifyPasswordWithAppOtp":{
+        "enableGoogleAuthenticationSuccess":"Google Authentication enabled successfully"
+    },
+    "checkingTokenValidity":{
+        "tokenSaved":"Detail Saved Successfully"
+    },
+    "checkUserSession":{
+        "sessionFetchSuccess":"Successful data fetched"
+    },
+    "otpVerify":{
+        "loginSuccess":"Logged in successfully!"
+    },
+    "createReferralCode":{
+        "referralCodeExists":"Referral code already Exists",
+        "referralCodeSaved":"Data saved Succesful"
+    }
+}

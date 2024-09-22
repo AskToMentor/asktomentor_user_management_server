@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "Данные успешно получены."
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "Подробности успешно сохранены"
+    },
+    "common": {
+        "OTPRequired": "Требуется OTP",
+        "Unauthenticated": "Неаутентифицированный",
+        "UserIdRequired": "Требуется идентификатор пользователя",
+        "VIPUserNotFound": "VIP-пользователь не найден",
+        "accountBlocked": "Аккаунт заблокирован",
+        "allFieldsMandatory": "Все поля обязательны",
+        "attachmentUploadError": "Ошибка при загрузке вложения",
+        "barCodeGenerationSuccess": "Сгенерированный код, штрих-код и форматированный ключ успешно сгенерированы.",
+        "customerNotFound": "Клиент не найден",
+        "dataDeleted": "Данные удалены. Успешно.",
+        "dataFetched": "Данные успешно получены",
+        "dataSaved": "Данные сохранены успешно",
+        "detailsFetched": "Подробности успешно получены",
+        "emailAlreadyExists": "Электронная почта уже существует",
+        "emailAlreadyUsed": "Указанный адрес электронной почты уже используется",
+        "emailAlreadyVerified": "Электронная почта уже подтверждена.",
+        "emailLinkExpired": "Срок действия ссылки для подтверждения электронной почты истек.",
+        "emailVerificationLinkResent": "Ссылка для подтверждения электронной почты была повторно отправлена ​​на адрес",
+        "enabling2FAError": "Что-то пошло не так при включении 2FA",
+        "enablingGAuthError": " Что-то пошло не так при включении G-Auth",
+        "expiredOTP": "Срок действия OTP истек.",
+        "googleAuthCodeMandatory": "Код Google Authenticator является обязательным для этой учетной записи.",
+        "healthyStatus": "Здоровый",
+        "invalidCustomer": "Неверный клиент",
+        "invalidEmail": "Неверный адрес электронной почты.",
+        "invalidEmailAddress": "Неверный адрес электронной почты",
+        "invalidEmailAddressInput": "Пожалуйста введите верный адрес электронной почты",
+        "invalidGAuthCode": "Неверный код аутентификации Google",
+        "invalidInput": "Неверный Ввод",
+        "invalidLink": "Эта ссылка недействительна",
+        "invalidParentReferralCode": "Неверный реферальный код родителя",
+        "invalidRecaptcha": "Неверная рекапча",
+        "invalidReferralCode": "Неверный реферальный код.",
+        "invalidVerificationUrl": "Неверный URL-адрес подтверждения.",
+        "inviteCodeNotExists": "Пригласительный код не существует",
+        "limitExceeds": "Ваш лимит превышен",
+        "linkExpired": "Срок действия ссылки «Забыть пароль» истек.",
+        "loginSuccess": "Вы успешно вошли в систему",
+        "malwarePractice": "Вы пытаетесь использовать Malware Pratice",
+        "maximumAttempts": "Достигнуто максимальное количество попыток. Обратитесь в службу поддержки.",
+        "metamaskAddressAlreadyExists": "Адрес уже существует",
+        "noRequestInitiated": "Запрос на вход не был инициирован",
+        "noUserFound": "Пользователь не найден",
+        "notAuthorisedToSessionTerminate": "Не авторизован для завершения этого сеанса",
+        "otpSentTo": "OTP отправлен на",
+        "passwordMismatch": "Новый пароль не совпадает с паролем подтверждения.",
+        "passwordValidation": "Требуется не менее 1 верхнего регистра, 1 строчной буквы, 1 цифры, 1 специального символа и минимум 8 символов.",
+        "referralCodeNotExists": "Реферальный код не существует",
+        "referralNotFound": "Реферал не найден",
+        "requestExceedsError": "Пожалуйста, повторите попытку позже.",
+        "resetPasswordLinkSent": "Ссылка для сброса пароля отправлена ​​на адрес",
+        "selectRecaptcha": "Пожалуйста, выберите рекапчу",
+        "selectTermsAndConditions": "Пожалуйста, выберите условия",
+        "sessionCreationSuccess": "Сессия успешно создана",
+        "sessionDetailNotFound": "сведения о сеансе пользователя равны нулю",
+        "sessionNotExists": "Сеанс не существует",
+        "sessionTerminationSuccess": "Вы успешно завершили этот сеанс",
+        "somethingWentWrong": "Что-то пошло не так",
+        "tryCorrectEmail": "Пожалуйста, введите правильный адрес электронной почты",
+        "tryDifferentEmail": "Пожалуйста, попробуйте использовать другой адрес электронной почты.",
+        "updateApp": "Пожалуйста, обновите для лучшего опыта",
+        "userNotExists": "Пользователь не существует",
+        "userNotFound": "Пользователь не найден",
+        "usernameAlreadyExists": "Имя пользователя уже существует",
+        "usernameValidation": "Имя пользователя должно быть буквенно-цифровым.",
+        "verifyEmail": "Пожалуйста, подтвердите свой адрес электронной почты",
+        "wrongAuthCode": "Неправильный код аутентификации",
+        "wrongAutheticationCode": "Неправильный код аутентификации",
+        "wrongAutheticationCodeOrPassword": "Неправильный код аутентификации/пароль",
+        "wrongEmailOrPassword": "Электронная почта или пароль неверны.",
+        "wrongEmailOrUsername": "Электронная почта/имя пользователя или пароль неверны.",
+        "wrongOTP": "Неправильный OTP"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "Реферальный код уже существует",
+        "referralCodeSaved": "Данные сохранены успешно"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA успешно отключен"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "Пользователь успешно зарегистрирован!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "Текущий статус 2FA получен успешно."
+    },
+    "otpVerify": {
+        "loginSuccess": "Авторизован успешно!"
+    },
+    "register": {
+        "userRegistrationSuccess": "Регистрация пользователя прошла успешно"
+    },
+    "updatePassword": {
+        "passwordUpdated": "Пароль успешно изменен!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Аутентификация Google успешно включена"
+    }
+}

@@ -71,65 +71,8 @@ const statusCodeObject = {
     HTTP_UNPROCESSABLE_ENTITY: 422
 };
 
-const CommonMessage = {
-    ALT_NUMBER_AND_NUMBER_SAME: "Alternate phone and phone number is same",
-    DATA_DELETED: "Detail Delete Successfully",
-    DETAIL_ALREADY_EXISTS: "Detail Already Exists",
-    DETAIL_DELETED_SUCCESSFULLY: "Detail Deleted Successfully",
-    DETAIL_FETCHED_SUCCESSFULLY: "Detail Fetched Successfully",
-    DETAIL_NOT_FOUND: " Detail Not Found",
-    DETAIL_SAVED_SUCCESSFULLY: "Detail Saved Successfully",
-    DETAIL_UPDATED_SUCCESSFULLY: "Detail Updated Successfully",
-    EMAIL_REQUIRED: "Email is Required",
-    ERROR_EMAIL_RESTRICATION: "Please Use Different Email this email is blocked",
-    ERROR_FIELD_REQUIRED: "Field required",
-    ERROR_MESSAGE_BAD_REQUEST: "Bad Request",
-    ERROR_MESSAGE_FORBIDDEN: "Forbidden",
-    ERROR_MESSAGE_INTERNAL_SERVER_ERROR: "Internal Server Error",
-    ERROR_MESSAGE_NOT_FOUND: "Not Found",
-    ERROR_MESSAGE_TOO_MANY_REQUESTS: "Too Many Requests",
-    ERROR_MESSAGE_UNAUTHORIZED: "Unauthorized",
-    INVALID_ACCOUNT_NUMBER: "Invalid Account Number",
-    INVALID_EMAIL: "Invalid Email",
-    INVALID_FSSAI_NUMBER: "Invalid Fssai Number",
-    INVALID_GST_NUMBER: "Invalid GST Number",
-    INVALID_IFSC: "Invalid IFSC Number",
-    INVALID_PNR: "Invalid Pnr",
-    LOGIN_COUNT_EXCEEDED: "You have reached max login",
-    LOGIN_KEY_MISSING: "Login Key is Missing",
-    MESSAGE_ERROR: "Error",
-    MESSAGE_SUCCESS: "Success",
-    PASSWORD_REQUIRED: "Password is Required",
-    PLEASE_ENTER_VALID_PHONE_NUMBER: "Please Enter Valid Phone Number",
-    SIGNED_URL_GENERATED_SUCCESSFULLY: "Signed Url Generated Successfully",
-    SOMETHING_WENT_WRONG: "Something went Wrong",
-    USERNAME_REQUIRED: "User name is required",
-    USERNAME_VALIDATION_ERROR: "User name must be alphanumeric."
-};
-
-const registerMessage = {
-    ERROR_INVALID_EMAIL_VALIDATION: "Invalid email address",
-    ERROR_PASSWORD_VALIDATION: "At least 1 uppercase, 1 lowercase, 1 number, 1 special character and minimum 8 characters required.",
-    ERROR_USER_ALREADY_EXIST: "User Already Exist",
-    SUCCESSFULLY_SAVED: "User Registered Successfully"
-};
-
-const loginMessage = {
-    ACCOUNT_BLOCKED: "Your Account is Blocked Please Contact Our Support",
-    ACCOUNT_VERIFICATION_PENDING: "Your Account Is Not Verified",
-    EITHER_PHONE_NUMBER_OR_PASSWORD_WRONG: "Either Email/Username or Password Wrong",
-    ERROR_PASSWORD_VALIDATION: "At least 1 uppercase, 1 lowercase, 1 number, 1 special character and minimum 8 characters required.",
-    ERROR_USER_NOT_FOUND: "User Not Found",
-    LOGIN_OTP_SENT_SUCCESSFULLY: "login OTP sent successfully",
-    PASSWORD_AND_CURRENT_PASSWORD_WRONG: "Password And Current password is wrong",
-    SUCCESSFULLY_LOGINED: "User Logined Successfully"
-};
-
 module.exports = {
     basicConfigurationObject,
-    CommonMessage,
     errorAndSuccessCodeConfiguration,
-    loginMessage,
-    registerMessage,
     statusCodeObject
 };

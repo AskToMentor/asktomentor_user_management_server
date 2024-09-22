@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "સફળ ડેટા મેળવ્યો"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "વિગતો સફળતાપૂર્વક સાચવી"
+    },
+    "common": {
+        "OTPRequired": "Otp જરૂરી છે",
+        "Unauthenticated": "અપ્રમાણિત",
+        "UserIdRequired": "યુઝર આઈડી જરૂરી છે",
+        "VIPUserNotFound": "વીઆઇપી વપરાશકર્તા મળ્યો નથી",
+        "accountBlocked": "ખાતું અવરોધિત છે",
+        "allFieldsMandatory": "બધા ફીલ્ડ જરૂરી છે",
+        "attachmentUploadError": "જોડાણ અપલોડ કરતી વખતે ભૂલ",
+        "barCodeGenerationSuccess": "કોડ, બારકોડ અને ફોર્મેટ કી સફળતાપૂર્વક જનરેટ કરી",
+        "customerNotFound": "ગ્રાહક મળ્યો નથી",
+        "dataDeleted": "ડેટા કાઢી નાખ્યો સફળ",
+        "dataFetched": "ડેટા સફળતાપૂર્વક મેળવ્યો",
+        "dataSaved": "ડેટા સફળતાપૂર્વક સાચવ્યો",
+        "detailsFetched": "વિગતો સફળતાપૂર્વક મેળવી",
+        "emailAlreadyExists": "ઈમેલ પહેલેથી જ અસ્તિત્વમાં છે",
+        "emailAlreadyUsed": "આપેલ ઈમેલ એડ્રેસ પહેલેથી ઉપયોગમાં છે",
+        "emailAlreadyVerified": "ઈમેલ પહેલેથી જ ચકાસાયેલ છે.",
+        "emailLinkExpired": "ઈમેલ વેરિફિકેશન લિંક એક્સપાયર થઈ ગઈ છે.",
+        "emailVerificationLinkResent": "ઈમેઈલ વેરિફિકેશન લિંકને ફરીથી મોકલવામાં આવી છે",
+        "enabling2FAError": "2FA સક્ષમ કરતી વખતે કંઈક ખોટું થયું",
+        "enablingGAuthError": " G-Auth સક્ષમ કરતી વખતે કંઈક ખોટું થયું",
+        "expiredOTP": "OTP સમાપ્ત થઈ ગયો છે.",
+        "googleAuthCodeMandatory": "આ એકાઉન્ટ માટે Google પ્રમાણકર્તા કોડ ફરજિયાત છે",
+        "healthyStatus": "સ્વસ્થ",
+        "invalidCustomer": "અમાન્ય ગ્રાહક",
+        "invalidEmail": "અમાન્ય ઇમેઇલ સરનામું.",
+        "invalidEmailAddress": "અમાન્ય ઇમેઇલ સરનામું",
+        "invalidEmailAddressInput": "કૃપા કરીને માન્ય ઇમેઇલ સરનામું દાખલ કરો",
+        "invalidGAuthCode": "અમાન્ય Google પ્રમાણીકરણ કોડ",
+        "invalidInput": "ખોટું ઇનપુટ",
+        "invalidLink": "આ લિંક અમાન્ય છે",
+        "invalidParentReferralCode": "અમાન્ય પિતૃ રેફરલ કોડ",
+        "invalidRecaptcha": "અમાન્ય રીકેપ્ચા",
+        "invalidReferralCode": "અમાન્ય રેફરલ કોડ.",
+        "invalidVerificationUrl": "અમાન્ય ચકાસણી url.",
+        "inviteCodeNotExists": "આમંત્રણ કોડ અસ્તિત્વમાં નથી",
+        "limitExceeds": "તમારી મર્યાદા ઓળંગાઈ ગઈ",
+        "linkExpired": "પાસવર્ડ ભૂલી જાઓ લિંક સમાપ્ત થઈ ગઈ છે.",
+        "loginSuccess": "સફળતાપૂર્વક લૉગ ઇન થયું",
+        "malwarePractice": "તમે માલવેર પ્રેક્ટિસનો પ્રયાસ કરી રહ્યાં છો",
+        "maximumAttempts": "મહત્તમ પ્રયાસો થઈ ગયા, કૃપા કરીને સમર્થનનો સંપર્ક કરો",
+        "metamaskAddressAlreadyExists": "સરનામું પહેલેથી જ અસ્તિત્વમાં છે",
+        "noRequestInitiated": "કોઈ લૉગિન વિનંતી શરૂ કરવામાં આવી ન હતી",
+        "noUserFound": "કોઈ વપરાશકર્તા મળ્યો નથી",
+        "notAuthorisedToSessionTerminate": "આ સત્રને સમાપ્ત કરવા માટે અધિકૃત નથી",
+        "otpSentTo": "પર OTP મોકલવામાં આવ્યો છે",
+        "passwordMismatch": "નવો પાસવર્ડ કન્ફર્મ પાસવર્ડ સાથે મેળ ખાતો નથી.",
+        "passwordValidation": "ઓછામાં ઓછા 1 અપરકેસ, 1 લોઅરકેસ, 1 નંબર, 1 વિશેષ અક્ષર અને ઓછામાં ઓછા 8 અક્ષરો જરૂરી છે.",
+        "referralCodeNotExists": "રેફરલ કોડ અસ્તિત્વમાં નથી",
+        "referralNotFound": "રેફરલ મળ્યો નથી",
+        "requestExceedsError": "ઘણી બધી વિનંતીઓ, કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.",
+        "resetPasswordLinkSent": "પર પાસવર્ડ રીસેટ કરવાની લિંક મોકલવામાં આવી છે",
+        "selectRecaptcha": "કૃપા કરીને રીકેપ્ચા પસંદ કરો",
+        "selectTermsAndConditions": "કૃપા કરીને નિયમો અને શરતો પસંદ કરો",
+        "sessionCreationSuccess": "સત્ર સફળતાપૂર્વક બનાવ્યું",
+        "sessionDetailNotFound": "વપરાશકર્તા સત્ર વિગતો નલ છે",
+        "sessionNotExists": "સત્ર અસ્તિત્વમાં નથી",
+        "sessionTerminationSuccess": "તમે આ સત્રને સફળતાપૂર્વક સમાપ્ત કર્યું છે",
+        "somethingWentWrong": "કંઈક ખોટું થયું",
+        "tryCorrectEmail": "કૃપા કરીને સાચું ઇમેઇલ સરનામું દાખલ કરો",
+        "tryDifferentEmail": "કૃપા કરીને એક અલગ ઇમેઇલ સરનામાં સાથે પ્રયાસ કરો.",
+        "updateApp": "વધુ સારા અનુભવ માટે કૃપા કરીને અપડેટ કરો",
+        "userNotExists": "વપરાશકર્તા અસ્તિત્વમાં નથી",
+        "userNotFound": "ઉપયોગકર્તા ના મળ્યો",
+        "usernameAlreadyExists": "વપરાશકર્તા નામ પહેલેથી જ અસ્તિત્વમાં છે",
+        "usernameValidation": "વપરાશકર્તા નામ આલ્ફાન્યૂમેરિક હોવું જોઈએ",
+        "verifyEmail": "કૃપા કરીને તમારું ઇમેઇલ ચકાસો",
+        "wrongAuthCode": "ખોટો પ્રમાણીકરણ કોડ",
+        "wrongAutheticationCode": "ખોટો પ્રમાણીકરણ કોડ",
+        "wrongAutheticationCodeOrPassword": "ખોટો પ્રમાણીકરણ કોડ/પાસવર્ડ",
+        "wrongEmailOrPassword": "ઈમેલ કે પાસવર્ડ ખોટો છે.",
+        "wrongEmailOrUsername": "ઈમેલ/યુઝરનેમ અથવા પાસવર્ડ ખોટો છે",
+        "wrongOTP": "ખોટો OTP"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "રેફરલ કોડ પહેલેથી જ અસ્તિત્વમાં છે",
+        "referralCodeSaved": "ડેટા સફળતાપૂર્વક સાચવ્યો"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "Google 2FA સફળતાપૂર્વક અક્ષમ"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "વપરાશકર્તા સફળતાપૂર્વક નોંધાયેલ છે!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "2FA ની વર્તમાન સ્થિતિ સફળતાપૂર્વક મેળવી"
+    },
+    "otpVerify": {
+        "loginSuccess": "સફળતાપૂર્વક લૉગ ઇન થયા!"
+    },
+    "register": {
+        "userRegistrationSuccess": "વપરાશકર્તા નોંધણી સફળ"
+    },
+    "updatePassword": {
+        "passwordUpdated": "પાસવર્ડ સફળતાપૂર્વક બદલવામાં આવ્યો છે!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "Google પ્રમાણીકરણ સફળતાપૂર્વક સક્ષમ કર્યું"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "checkUserSession": {
+        "sessionFetchSuccess": "ดึงข้อมูลสำเร็จ"
+    },
+    "checkingTokenValidity": {
+        "tokenSaved": "บันทึกรายละเอียดเรียบร้อยแล้ว"
+    },
+    "common": {
+        "OTPRequired": "จำเป็นต้องมีรหัส OTP",
+        "Unauthenticated": "ไม่ได้รับการรับรองความถูกต้อง",
+        "UserIdRequired": "ต้องระบุรหัสผู้ใช้",
+        "VIPUserNotFound": "ไม่พบผู้ใช้วีไอพี",
+        "accountBlocked": "บัญชีถูกบล็อค",
+        "allFieldsMandatory": "ต้องกรอกทุกช่อง",
+        "attachmentUploadError": "เกิดข้อผิดพลาดขณะอัปโหลดไฟล์แนบ",
+        "barCodeGenerationSuccess": "สร้างโค้ด บาร์โค้ด และฟอร์แมตคีย์สำเร็จแล้ว",
+        "customerNotFound": "ไม่พบลูกค้า",
+        "dataDeleted": "ลบข้อมูลสำเร็จ",
+        "dataFetched": "ดึงข้อมูลสำเร็จ",
+        "dataSaved": "บันทึกข้อมูลเรียบร้อยแล้ว",
+        "detailsFetched": "ดึงข้อมูลรายละเอียดเรียบร้อยแล้ว",
+        "emailAlreadyExists": "มีอีเมลอยู่แล้ว",
+        "emailAlreadyUsed": "ที่อยู่อีเมลที่ให้ไว้มีการใช้งานแล้ว",
+        "emailAlreadyVerified": "อีเมลได้รับการยืนยันแล้ว",
+        "emailLinkExpired": "ลิงก์ยืนยันอีเมลหมดอายุแล้ว",
+        "emailVerificationLinkResent": "ลิงก์ยืนยันอีเมลถูกส่งไปที่แล้ว",
+        "enabling2FAError": "เกิดข้อผิดพลาดขณะเปิดใช้งาน 2FA",
+        "enablingGAuthError": " เกิดข้อผิดพลาดขณะเปิดใช้งาน G-Auth",
+        "expiredOTP": "OTP หมดอายุแล้ว",
+        "googleAuthCodeMandatory": "รหัส Google Authenticator จำเป็นสำหรับบัญชีนี้",
+        "healthyStatus": "สุขภาพดี",
+        "invalidCustomer": "ลูกค้าไม่ถูกต้อง",
+        "invalidEmail": "ที่อยู่อีเมลที่ไม่ถูกต้อง.",
+        "invalidEmailAddress": "ที่อยู่อีเมลที่ไม่ถูกต้อง",
+        "invalidEmailAddressInput": "กรุณากรอกที่อยู่อีเมลที่ถูกต้อง",
+        "invalidGAuthCode": "รหัสการตรวจสอบสิทธิ์ของ Google ไม่ถูกต้อง",
+        "invalidInput": "อินพุตไม่ถูกต้อง",
+        "invalidLink": "ลิงค์นี้ไม่ถูกต้อง",
+        "invalidParentReferralCode": "รหัสอ้างอิงผู้ปกครองไม่ถูกต้อง",
+        "invalidRecaptcha": "แคปช่าไม่ถูกต้อง",
+        "invalidReferralCode": "รหัสอ้างอิงไม่ถูกต้อง",
+        "invalidVerificationUrl": "URL การยืนยันไม่ถูกต้อง",
+        "inviteCodeNotExists": "ไม่มีรหัสคำเชิญ",
+        "limitExceeds": "เกินขีดจำกัดของคุณแล้ว",
+        "linkExpired": "ลิงค์ลืมรหัสผ่านหมดอายุแล้ว",
+        "loginSuccess": "เข้าสู่ระบบเรียบร้อยแล้ว",
+        "malwarePractice": "คุณกำลังพยายามใช้มัลแวร์ Pratice",
+        "maximumAttempts": "ถึงความพยายามสูงสุดแล้ว โปรดติดต่อฝ่ายสนับสนุน",
+        "metamaskAddressAlreadyExists": "มีที่อยู่อยู่แล้ว",
+        "noRequestInitiated": "ไม่มีการเริ่มต้นคำขอเข้าสู่ระบบ",
+        "noUserFound": "ไม่พบผู้ใช้",
+        "notAuthorisedToSessionTerminate": "ไม่ได้รับอนุญาตให้ยุติเซสชันนี้",
+        "otpSentTo": "ได้ส่ง OTP ไปที่",
+        "passwordMismatch": "รหัสผ่านใหม่ไม่ตรงกับรหัสผ่านที่ยืนยัน",
+        "passwordValidation": "ต้องมีตัวพิมพ์ใหญ่ 1 ตัว ตัวพิมพ์เล็ก 1 ตัว ตัวเลข 1 ตัว อักขระพิเศษ 1 ตัว และต้องมีอักขระอย่างน้อย 8 ตัว",
+        "referralCodeNotExists": "รหัสอ้างอิงไม่มีอยู่",
+        "referralNotFound": "ไม่พบการอ้างอิง",
+        "requestExceedsError": "มีคำขอมากเกินไป โปรดลองอีกครั้งในภายหลัง",
+        "resetPasswordLinkSent": "ลิงค์รีเซ็ตรหัสผ่านได้ถูกส่งไปยัง",
+        "selectRecaptcha": "โปรดเลือกแคปช่า",
+        "selectTermsAndConditions": "กรุณาเลือกข้อกำหนดและเงื่อนไข",
+        "sessionCreationSuccess": "สร้างเซสชันสำเร็จแล้ว",
+        "sessionDetailNotFound": "รายละเอียดเซสชันผู้ใช้เป็นโมฆะ",
+        "sessionNotExists": "ไม่มีเซสชัน",
+        "sessionTerminationSuccess": "คุณยุติเซสชั่นนี้สำเร็จแล้ว",
+        "somethingWentWrong": "บางอย่างผิดพลาด",
+        "tryCorrectEmail": "กรุณากรอกที่อยู่อีเมลที่ถูกต้อง",
+        "tryDifferentEmail": "โปรดลองด้วยที่อยู่อีเมลอื่น",
+        "updateApp": "โปรดอัปเดตเพื่อประสบการณ์ที่ดีขึ้น",
+        "userNotExists": "ไม่มีผู้ใช้อยู่",
+        "userNotFound": "ไม่พบชื่อผู้ใช้",
+        "usernameAlreadyExists": "มีชื่อผู้ใช้อยู่แล้ว",
+        "usernameValidation": "ชื่อผู้ใช้ควรเป็นตัวอักษรและตัวเลข",
+        "verifyEmail": "กรุณายืนยันอีเมลของคุณ",
+        "wrongAuthCode": "รหัสยืนยันตัวตนไม่ถูกต้อง",
+        "wrongAutheticationCode": "รหัสยืนยันตัวตนไม่ถูกต้อง",
+        "wrongAutheticationCodeOrPassword": "รหัสยืนยันตัวตน / รหัสผ่านไม่ถูกต้อง",
+        "wrongEmailOrPassword": "อีเมลหรือรหัสผ่านไม่ถูกต้อง",
+        "wrongEmailOrUsername": "อีเมล/ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง",
+        "wrongOTP": "รหัส OTP ผิด"
+    },
+    "createReferralCode": {
+        "referralCodeExists": "รหัสอ้างอิงมีอยู่แล้ว",
+        "referralCodeSaved": "บันทึกข้อมูลสำเร็จ"
+    },
+    "disableGoogleAuthentication": {
+        "disableGoogleAuthenticationSuccess": "ปิดการใช้งาน Google 2FA สำเร็จแล้ว"
+    },
+    "emailVerify": {
+        "userRegistrationConfirmed": "ลงทะเบียนผู้ใช้สำเร็จแล้ว!"
+    },
+    "googleAuthenticationStatus": {
+        "googleAuthenticationStatusSuccess": "ดึงข้อมูลสถานะปัจจุบันของ 2FA สำเร็จแล้ว"
+    },
+    "otpVerify": {
+        "loginSuccess": "เข้าสู่ระบบสำเร็จ!"
+    },
+    "register": {
+        "userRegistrationSuccess": "ลงทะเบียนผู้ใช้สำเร็จ"
+    },
+    "updatePassword": {
+        "passwordUpdated": "เปลี่ยนรหัสผ่านเรียบร้อยแล้ว!"
+    },
+    "verifyPasswordWithAppOtp": {
+        "enableGoogleAuthenticationSuccess": "เปิดใช้งานการรับรองความถูกต้องของ Google เรียบร้อยแล้ว"
+    }
+}
