@@ -15,8 +15,8 @@ const {
 
 const helper = require("../utils/helper.js");
 
-const saveSettings = asyncHandler (async (req, res) => {
-    console.log("saveSettings working", req.body);
+const saveQuestionaries = asyncHandler (async (req, res) => {
+    console.log("saveQuestionaries working", req.body);
     let session;
     
     try {
@@ -24,49 +24,39 @@ const saveSettings = asyncHandler (async (req, res) => {
     
         session.startTransaction();
         const {
-            coachingOfferingsId, categoryId, subCategoryId, desc, serviceType
+            settingId, questonaries
         } = req.body;
 
-        if (fieldValidator(coachingOfferingsId) || fieldValidator(categoryId) || fieldValidator(subCategoryId) || fieldValidator(desc) || fieldValidator(serviceType)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, CommonMessage.ERROR_FIELD_REQUIRED);
+        if (fieldValidator(settingId)  || fieldValidator(questonaries)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, CommonMessage.ERROR_FIELD_REQUIRED);
 
-        const uniqueId = helper.generateUserId();
         const detail = await Settings.findOne({
-            categoryId,
-            coachingOfferingsId,
-            subCategoryId
+            settingId
         });
 
         console.log("user", detail);
 
-        if (!fieldValidator(detail)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, "Detail Already Exist");
+        if (fieldValidator(detail)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, "Detail Not Exist");
 
-        const parseServiceType = JSON.parse(serviceType);
+        let parseQuestionaries = JSON.parse(questonaries);
 
         console.log({
-            parseServiceType
+            parseQuestionaries
         });
-        const settingObj = {
-            categoryId,
-            coachingOfferingsId,
-            desc,
-            // questonaries: JSON.parse(JSON.parse(questonaries)),
-            serviceType: parseServiceType,
-            // serviceType: JSON.parse(JSON.parse(serviceType)),
-            settingId: uniqueId,
-            subCategoryId
-
+        parseQuestionaries = parseQuestionaries.map(question => question.questionariesId = helper.generateUserId());
+        const questionariesObj = {
+            questonaries: parseQuestionaries
         };
 
-        await Settings.create(settingObj, {
-            session
+        await Settings.findOneAndUpdate({
+            settingId
+        }, {
+            $set: questionariesObj
         });
 
         await session.commitTransaction();
 
         return res.status(201).json(
-            new ApiResponse(statusCodeObject.HTTP_STATUS_OK, errorAndSuccessCodeConfiguration.HTTP_STATUS_OK, {
-                settingId: settingObj.settingId
-            }, "Detail Saved Successfully")
+            new ApiResponse(statusCodeObject.HTTP_STATUS_OK, errorAndSuccessCodeConfiguration.HTTP_STATUS_OK, {}, "Detail Saved Successfully")
         );
     }
     catch (error) {
@@ -97,4 +87,4 @@ const saveSettings = asyncHandler (async (req, res) => {
     }
 });
 
-module.exports = saveSettings;
+module.exports = saveQuestionaries;
