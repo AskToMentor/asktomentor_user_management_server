@@ -22,11 +22,27 @@ const getCategories = asyncHandler (async (req, res) => {
         if (!fieldValidator(name))
             filterObj.categoryName = new RegExp(name, "i");
         
-        const categorie = await categories.find(filterObj);
-        const categoryLists = getMenuList(categorie);
+        const categorie = await categories.aggregate([{
+            $match: filterObj
+        },
+        {
+            $lookup: {
+                as: "childernInfo",
+                foreignField: "parentId",
+                from: "categories",
+                localField: "categoryId"
+            }
+        },
+        {
+            // This step filters out records where `parentId` is not null
+            $match: {
+                parentId: null
+            }
+        }]);
+        // const categoryLists = getMenuList(categorie);
 
         return res.status(200).json(
-            new ApiResponse(statusCodeObject.HTTP_STATUS_OK, errorAndSuccessCodeConfiguration.HTTP_STATUS_OK, categoryLists, en.common.detailsFetched )
+            new ApiResponse(statusCodeObject.HTTP_STATUS_OK, errorAndSuccessCodeConfiguration.HTTP_STATUS_OK, categorie, en.common.detailsFetched )
         );
     }
     catch (error) {
