@@ -18,6 +18,7 @@ const getCoachingOfferings = require("../controllers/getCoachingOfferings.contro
 const getCategories = require("../controllers/getCateogries.controller.js");
 const saveSettings =  require("../controllers/saveSettings.controller.js");
 const googleLogin = require("../controllers/googleLogin.controller.js");
+const saveQuestionaries = require("../controllers/saveQuestionaries.controller.js");
 
 router.route("/").get((req, res) => {
     res.status(200).json({
@@ -34,6 +35,7 @@ router.route("/getCoachingOfferings").get(getCoachingOfferings);
 router.route("/getCategories").get(getCategories);
 router.route("/addUserDetail").post(addUserDetail);
 router.route("/saveSettings").post(saveSettings);
+router.route("/saveQuestionaries").post(saveQuestionaries);
 router.route("/googleLogin").post(googleLogin);
 router.route("/uploadProfilePicture").post(upload.single("profile_image"), uploadProfilePicture);
 module.exports = router;

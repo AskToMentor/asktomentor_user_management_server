@@ -57,7 +57,7 @@ const saveSettings = asyncHandler (async (req, res) => {
 
         };
 
-        await Settings.create(settingObj, {
+        await Settings.create([ settingObj ], {
             session
         });
 
