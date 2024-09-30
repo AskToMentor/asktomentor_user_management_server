@@ -39,19 +39,31 @@ const saveQuestionaries = asyncHandler (async (req, res) => {
 
         let parseQuestionaries = JSON.parse(questonaries);
 
+        parseQuestionaries = parseQuestionaries.map(question => {
+            question.questionariesId = helper.generateUserId();
+
+            return question;
+        });
         console.log({
             parseQuestionaries
         });
-        parseQuestionaries = parseQuestionaries.map(question => question.questionariesId = helper.generateUserId());
+
         const questionariesObj = {
             questonaries: parseQuestionaries
         };
 
-        await Settings.findOneAndUpdate({
-            settingId
-        }, {
-            $set: questionariesObj
-        });
+        const updatedSetting = await Settings.findOneAndUpdate(
+            {
+                settingId: parseInt(settingId) 
+            },         // Query to find the document
+            {
+                $set: questionariesObj 
+            },  // Update object using $set
+            {
+                new: true,
+                upsert: false 
+            } // Options: return updated document, do not create a new one if not found
+        );
 
         await session.commitTransaction();
 
