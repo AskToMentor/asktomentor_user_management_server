@@ -34,6 +34,7 @@ const basicConfigurationObject  = {
     DB_PORT_NUMBER: process.env.DB_PORT_NUMBER,
     DB_USER_NAME: process.env.DB_USER_NAME,
     ENVIROMENT: process.env.ENVIROMENT,
+    FIREBASE_SERVICE_ACCOUNT: process.env.FIREBASE_CONF,
     FIX_OTP_EMAILS: process.env.FIX_OTP_EMAILS,
     JSON_STRINGIFY: process.env.JSON_STRINGIFY,
     JWT_ISSSUER: process.env.JWT_ISSSUER,

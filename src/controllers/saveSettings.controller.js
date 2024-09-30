@@ -14,6 +14,7 @@ const {
 } = require( "../configuration/dbConnection.js");
 
 const crypto = require("crypto");
+const helper = require("../utils/helper.js");
 
 function generateUserId() {
     // Generate a random 8-digit number
@@ -46,14 +47,14 @@ const saveSettings = asyncHandler (async (req, res) => {
 
         if (!fieldValidator(detail)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, "Detail Already Exist");
 
-        const parseQuestionaries = JSON.parse(questonaries);
+        let parseQuestionaries = JSON.parse(questonaries);
         const parseServiceType = JSON.parse(serviceType);
 
         console.log({
             parseQuestionaries,
             parseServiceType
         });
-        
+        parseQuestionaries = parseQuestionaries.map(question => question.questionariesId = helper.generateUserId());
         const userObj = {
             categoryId,
             coachingOfferingsId,

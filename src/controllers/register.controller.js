@@ -13,14 +13,10 @@ const {
     getNewMongoSession
 } = require( "../configuration/dbConnection.js");
 
-const crypto = require("crypto");
+const {
+    generateUserId
+} = require("../utils/helper.js");
 
-function generateUserId() {
-    // Generate a random 8-digit number
-    const userId = crypto.randomInt(10000000, 99999999);
-
-    return userId;
-}
 const register = asyncHandler (async (req, res) => {
     console.log("register working", req.body);
     let session;

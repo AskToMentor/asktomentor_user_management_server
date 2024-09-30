@@ -6,12 +6,10 @@ const sqsConfiguration = require("../configuration/sqs.js")();
 const {
     basicConfigurationObject 
 } = require("./constants.js");
+const crypto = require("crypto");
+
 // const ShortUniqueId =  require("short-unique-id");
 // const uid = new ShortUniqueId();
-const {
-    id_connection
-} = require( "../models/index.js");
-
 class Helper{
     phoneNumberValidation(phoneNumber){
         const regex = /^[6-9]\d{9}$/;
@@ -22,7 +20,13 @@ class Helper{
     getRandomOTP (min, max){
         return Math.floor(Math.random() * (max - min) + min);
     }
-  
+    generateUserId() {
+        // Generate a random 8-digit number
+        const userId = crypto.randomInt(10000000, 99999999);
+    
+        return userId;
+    }
+
     async getMonthNumber(date) {
         const reference_date = new Date(parseFloat(basicConfigurationObject.REFERENCE_START_DATE));
         const currentDate = date ? new Date(date) : new Date();

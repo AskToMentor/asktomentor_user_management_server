@@ -19,6 +19,9 @@ const {
 // const helper =require("./utils/helper.js");
 const checkForPlatform = require("./middleware/checkForPlatform.js");
 const logHeaders = require("./middleware/logHeaders.js");
+const admin = require("firebase-admin");
+const firebaseJson = require("./utils/fireBase.json");
+
 // const createRedisClient = require("./configuration/redis.js");
 const app = express();
 
@@ -62,6 +65,11 @@ async function setupMiddleware() {
             extended: true,
             limit: "8mb" 
         }));
+        // Initialize Firebase Admin
+        
+        admin.initializeApp({
+            credential: admin.credential.cert(firebaseJson)
+        });
         app.use(logHeaders);
         // Use the XSS prevention middleware
         app.use(sanitizeMiddleware);
