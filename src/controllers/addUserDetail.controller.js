@@ -23,7 +23,7 @@ const addUserDetail = asyncHandler (async (req, res) => {
     
         session.startTransaction();
         const {
-            userId, selfIntroDesc, faceBookId, instagramId, twitterId, skills
+            userId, selfIntroDesc, faceBookId, instagramId, twitterId, linkedinId, skills
         } = req.body;
 
         if (fieldValidator(userId)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, en.common.invalidInput);
@@ -39,6 +39,7 @@ const addUserDetail = asyncHandler (async (req, res) => {
         const userObj = {
             faceBookId,
             instagramId,
+            linkedinId,
             selfIntroDesc,
             twitterId
         };
@@ -54,6 +55,9 @@ const addUserDetail = asyncHandler (async (req, res) => {
             
         if (!fieldValidator(faceBookId))
             userObj.faceBookId = faceBookId;
+
+        if (!fieldValidator(linkedinId))
+            userObj.linkedinId = linkedinId;
                 
         if (!fieldValidator(skills))
             userObj.skills = skills;

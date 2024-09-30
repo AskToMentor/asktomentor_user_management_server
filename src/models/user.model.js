@@ -92,9 +92,13 @@ const userSchema = new mongoose.Schema(
             required: false,
             type: String
         },
-        
         linkdein_full_name: {
             type: String
+        },
+        
+        linkedinId: {
+            type: String
+
         },
 
         loginCount: {
