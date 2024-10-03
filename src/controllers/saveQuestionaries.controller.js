@@ -24,10 +24,10 @@ const saveQuestionaries = asyncHandler (async (req, res) => {
     
         session.startTransaction();
         const {
-            settingId, questonaries
+            settingId, questonaries, availability
         } = req.body;
 
-        if (fieldValidator(settingId)  || fieldValidator(questonaries)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, CommonMessage.ERROR_FIELD_REQUIRED);
+        if (fieldValidator(settingId)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, CommonMessage.ERROR_FIELD_REQUIRED);
 
         const detail = await Settings.findOne({
             settingId
@@ -37,20 +37,42 @@ const saveQuestionaries = asyncHandler (async (req, res) => {
 
         if (fieldValidator(detail)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, "Detail Not Exist");
 
-        let parseQuestionaries = JSON.parse(questonaries);
+        let parseQuestionaries, parseTimeSlot;
+        const questionariesObj = {};
 
-        parseQuestionaries = parseQuestionaries.map(question => {
-            question.questionariesId = helper.generateUserId();
+        if (!fieldValidator(questonaries)){
+            parseQuestionaries = JSON.parse(questonaries);
 
-            return question;
-        });
+            parseQuestionaries = parseQuestionaries.map(question => {
+                question.questionariesId = helper.generateUserId();
+    
+                return question;
+            });
+            questionariesObj.questonaries = parseQuestionaries;
+        }
+
+        if (!fieldValidator(availability)){
+            parseTimeSlot = JSON.parse(availability);
+            console.log("parseTimeSlot", parseTimeSlot);
+            parseTimeSlot = parseTimeSlot.map(el => {
+                el.availabilityId = helper.generateUserId();
+                el.status = "Active";
+                el.timeSlots = el.timeSlots.map(r => {
+                    r.timeSlotId = helper.generateUserId();
+                    r.status = "Active";
+    
+                    return r;
+                });
+    
+                return el;
+            });
+            questionariesObj.availability = parseTimeSlot;
+        }
+        
         console.log({
-            parseQuestionaries
+            parseQuestionaries,
+            parseTimeSlot
         });
-
-        const questionariesObj = {
-            questonaries: parseQuestionaries
-        };
 
         const updatedSetting = await Settings.findOneAndUpdate(
             {
