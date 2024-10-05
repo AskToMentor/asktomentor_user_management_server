@@ -43,10 +43,9 @@ const googleLogin = asyncHandler (async (req, res) => {
         let user = await User.findOne({
             googleId: decodedToken.user_id
         });
-
-        console.log(user, "user");
-
+        
         if (fieldValidator(user)) {
+            console.log( "inside user if block", user);
             user = await User.findOneAndUpdate({
                 email: decodedToken.email,
                 googleId: decodedToken.user_id,
@@ -60,8 +59,10 @@ const googleLogin = asyncHandler (async (req, res) => {
                 }
             }, {
                 new: true,
-                session: session
+                session: session,
+                upsert: true
             });
+            console.log("user", user);
         }
 
         const dataObj = {

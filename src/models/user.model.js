@@ -80,6 +80,9 @@ const userSchema = new mongoose.Schema(
             required: false,
             type: String
         },
+        googleId: {
+            type: String
+        },
         instagramId: {
             type: String
         },
@@ -92,10 +95,11 @@ const userSchema = new mongoose.Schema(
             required: false,
             type: String
         },
+        
         linkdein_full_name: {
             type: String
         },
-        
+
         linkedinId: {
             type: String
 
@@ -121,7 +125,7 @@ const userSchema = new mongoose.Schema(
         profileImageUrl: {
             type: String
         },
-
+        
         profileViedoUrl: {
             type: String
         },
@@ -134,7 +138,7 @@ const userSchema = new mongoose.Schema(
         salt: {
             type: String
         },
-        
+
         selfIntroDesc: {
             type: String
         },
@@ -147,7 +151,7 @@ const userSchema = new mongoose.Schema(
             required: false,
             type: String
         },
-
+        
         twitterId: {
             type: String
         },
