@@ -38,6 +38,7 @@ const basicConfigurationObject  = {
     FIX_OTP_EMAILS: process.env.FIX_OTP_EMAILS,
     JSON_STRINGIFY: process.env.JSON_STRINGIFY,
     JWT_ISSSUER: process.env.JWT_ISSSUER,
+    LINKEDIN_RAPID_API_KEY: process.env.LINKEDIN_RAPID_API_KEY,
     LOGIN_EMAIL_RESTRICT_KEY: process.env.LOGIN_EMAIL_RESTRICT_KEY,
     MONGODB_URI: process.env.MONGODB_URI,
     MYSQL_URI: process.env.MYSQL_URI,
@@ -72,6 +73,7 @@ const statusCodeObject = {
     HTTP_UNPROCESSABLE_ENTITY: 422
 };
 const CommonMessage  = {
+    DETAIL_FETCHED_SUCCESSFULLY: "Detail Fetched Successfully",
     PROFILE_IMAGE_UPLOADED_SUCCESSFULLY: "Profile Image Uploaded Successfully"
 };
 

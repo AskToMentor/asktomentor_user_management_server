@@ -24,10 +24,10 @@ const saveSettings = asyncHandler (async (req, res) => {
     
         session.startTransaction();
         const {
-            coachingOfferingsId, categoryId, subCategoryId, desc, serviceType
+            coachingOfferingsId, categoryId, subCategoryId, desc, serviceType, userId
         } = req.body;
 
-        if (fieldValidator(coachingOfferingsId) || fieldValidator(categoryId) || fieldValidator(subCategoryId) || fieldValidator(desc) || fieldValidator(serviceType)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, CommonMessage.ERROR_FIELD_REQUIRED);
+        if (fieldValidator(coachingOfferingsId) || fieldValidator(categoryId) || fieldValidator(subCategoryId) || fieldValidator(desc) || fieldValidator(serviceType), fieldValidator(userId)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, CommonMessage.ERROR_FIELD_REQUIRED);
 
         const uniqueId = helper.generateUserId();
         const detail = await Settings.findOne({
@@ -53,7 +53,8 @@ const saveSettings = asyncHandler (async (req, res) => {
             serviceType: parseServiceType,
             // serviceType: JSON.parse(JSON.parse(serviceType)),
             settingId: uniqueId,
-            subCategoryId
+            subCategoryId,
+            userId
 
         };
 

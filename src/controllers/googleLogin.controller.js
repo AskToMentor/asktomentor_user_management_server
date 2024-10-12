@@ -5,7 +5,7 @@ const User  = require( "../models/user.model.js");
 const fieldValidator = require( "../utils/fieldValidator.js");
 const ApiError = require( "../utils/apiError.js");
 const {
-    CommonMessage, statusCodeObject, errorAndSuccessCodeConfiguration, loginMessage
+    CommonMessage, statusCodeObject, errorAndSuccessCodeConfiguration, loginMessage, registerMessage
 } = require( "../utils/constants.js");
 
 const ApiResponse = require( "../utils/apiSuccess.js");
@@ -14,9 +14,6 @@ const {
 } = require( "../configuration/dbConnection.js");
 const admin = require("firebase-admin");
 const createJwtToken = require("../utils/createJwtToken.js");
-const {
-    generateUserId
-} = require("../utils/helper.js");
 
 const googleLogin = asyncHandler (async (req, res) => {
     console.log("login working", req.body);
@@ -40,35 +37,34 @@ const googleLogin = asyncHandler (async (req, res) => {
 
         console.log("decodedToken", decodedToken);
         
-        let user = await User.findOne({
+        const user = await User.findOne({
             googleId: decodedToken.user_id
         });
+
+        if (fieldValidator(user)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, registerMessage.ERROR_USER_NOT_FOUND);
         
-        if (fieldValidator(user)) {
-            console.log( "inside user if block", user);
-            user = await User.findOneAndUpdate({
-                email: decodedToken.email,
-                googleId: decodedToken.user_id,
-                role
-            }, {
-                $set: {
-                    email: decodedToken.email,
-                    googleId: decodedToken.user_id,
-                    role,
-                    userId: generateUserId()
-                }
-            }, {
-                new: true,
-                session: session,
-                upsert: true
-            });
-            console.log("user", user);
-        }
+        console.log( "inside user if block", user);
+        // user = await User.findOneAndUpdate({
+        //     email: decodedToken.email,
+        //     googleId: decodedToken.user_id,
+        //     role
+        // }, {
+        //     $set: {
+        //         email: decodedToken.email,
+        //         googleId: decodedToken.user_id,
+        //         role,
+        //         userId: generateUserId()
+        //     }
+        // }, {
+        //     new: true,
+        //     session: session
+        // });
+        // console.log("user", user);
 
         const dataObj = {
-            email: fieldValidator(user.value) ? user.email : user.value.email,
+            email: user.email,
             role,
-            userId: fieldValidator(user.value) ? user.userId : user.value.userId
+            userId: user.userId 
         };
         const token = await createJwtToken(dataObj, ip, origin, userAgent, platform);
 

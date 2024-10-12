@@ -38,6 +38,9 @@ const settingSchema = new mongoose.Schema(
         subCategoryId: {
             required: true,
             type: String 
+        },
+        userId: {
+            type: String
         }
     },
     {
