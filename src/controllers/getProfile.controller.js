@@ -22,7 +22,7 @@ const getProfile = asyncHandler (async (req, res) => {
         session.startTransaction();
         const {
             userId
-        } = req.body;
+        } = req.query;
 
         const user = await User.aggregate([
             {
