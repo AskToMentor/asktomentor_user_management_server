@@ -41,6 +41,6 @@ router.route("/saveQuestionaries").post(saveQuestionaries);
 router.route("/googleLogin").post(googleLogin);
 router.route("/importLinkedinProfile").post(importLinkedinProfile);
 router.route("/uploadProfilePicture").post(upload.single("profile_image"), uploadProfilePicture);
-router.route("/getProfile").post(getProfile);
+router.route("/getProfile").get(getProfile);
 
 module.exports = router;
