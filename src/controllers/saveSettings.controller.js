@@ -33,7 +33,8 @@ const saveSettings = asyncHandler (async (req, res) => {
         const detail = await Settings.findOne({
             categoryId,
             coachingOfferingsId,
-            subCategoryId
+            subCategoryId,
+            userId
         });
 
         console.log("user", detail);
