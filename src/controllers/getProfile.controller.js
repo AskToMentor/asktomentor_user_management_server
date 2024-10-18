@@ -54,7 +54,10 @@ const getProfile = asyncHandler (async (req, res) => {
                             }
                         },
                         {
-                            $unwind: "$categoriesInfo"
+                            $unwind: {
+                                path: "$categoriesInfo",
+                                preserveNullAndEmptyArrays: true
+                            }
                         },
                         {
                             $lookup: {
@@ -65,7 +68,10 @@ const getProfile = asyncHandler (async (req, res) => {
                             }
                         },
                         {
-                            $unwind: "$subCategoriesInfo"
+                            $unwind: {
+                                path: "$subCategoriesInfo",
+                                preserveNullAndEmptyArrays: true
+                            }
                         },
                         {
                             $lookup: {
@@ -76,13 +82,19 @@ const getProfile = asyncHandler (async (req, res) => {
                             }
                         },
                         {
-                            $unwind: "$coachingOfferingsInfo"
+                            $unwind: {
+                                path: "$coachingOfferingsInfo",
+                                preserveNullAndEmptyArrays: true
+                            }
                         }
                     ]
                 }
             },
             {
-                $unwind: "$settingsInfo"
+                $unwind: {
+                    path: "$settingsInfo",
+                    preserveNullAndEmptyArrays: true
+                }
             }
         
         ]);
