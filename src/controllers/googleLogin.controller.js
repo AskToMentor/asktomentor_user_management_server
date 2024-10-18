@@ -37,29 +37,30 @@ const googleLogin = asyncHandler (async (req, res) => {
 
         console.log("decodedToken", decodedToken);
         
-        const user = await User.findOne({
-            googleId: decodedToken.user_id
+        let user = await User.findOne({
+            //googleId: decodedToken.user_id,
+            email: decodedToken.email
         });
 
         if (fieldValidator(user)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, registerMessage.ERROR_USER_NOT_FOUND);
         
         console.log( "inside user if block", user);
-        // user = await User.findOneAndUpdate({
-        //     email: decodedToken.email,
-        //     googleId: decodedToken.user_id,
-        //     role
-        // }, {
-        //     $set: {
-        //         email: decodedToken.email,
-        //         googleId: decodedToken.user_id,
-        //         role,
-        //         userId: generateUserId()
-        //     }
-        // }, {
-        //     new: true,
-        //     session: session
-        // });
-        // console.log("user", user);
+
+        if (fieldValidator(user.googleId)){
+            user =  await User.findOneAndUpdate({
+                email: decodedToken.email
+            }, {
+                $set: {
+                    googleId: decodedToken.user_id
+                }
+            }, {
+                new: true,
+                session: session
+            });
+            console.log("user", user);
+        }
+
+        if (user.googleId !== decodedToken.user_id ) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, "ID Not Match");
 
         const dataObj = {
             email: user.email,
