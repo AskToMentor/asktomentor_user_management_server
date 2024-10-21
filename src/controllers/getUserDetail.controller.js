@@ -12,8 +12,8 @@ const {
     getNewMongoSession
 } = require( "../configuration/dbConnection.js");
 
-const getProfile = asyncHandler (async (req, res) => {
-    console.log("getProfile working", req.body);
+const getUserDetail = asyncHandler (async (req, res) => {
+    console.log("getUserDetail working", req.body);
     let session;
     
     try {
@@ -22,7 +22,9 @@ const getProfile = asyncHandler (async (req, res) => {
         session.startTransaction();
         const {
             userId
-        } = req.query;
+        } = req.decoded;
+
+        console.log("user", userId);
 
         const user = await User.aggregate([
             {
@@ -141,4 +143,4 @@ const getProfile = asyncHandler (async (req, res) => {
     }
 });
 
-module.exports = getProfile;
+module.exports = getUserDetail;

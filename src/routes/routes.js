@@ -21,6 +21,7 @@ const googleLogin = require("../controllers/googleLogin.controller.js");
 const saveQuestionaries = require("../controllers/saveQuestionaries.controller.js");
 const importLinkedinProfile = require("../controllers/importLinkedinProfile.js");
 const getProfile = require("../controllers/getProfile.controller.js");
+const getUserDetail = require("../controllers/getUserDetail.controller.js");
 
 router.route("/").get((req, res) => {
     res.status(200).json({
@@ -42,5 +43,6 @@ router.route("/googleLogin").post(googleLogin);
 router.route("/importLinkedinProfile").post(importLinkedinProfile);
 router.route("/uploadProfilePicture").post(upload.single("profile_image"), uploadProfilePicture);
 router.route("/getProfile").get(getProfile);
+router.route("/getUserDetail").get(authenticateJwtMiddleware, getUserDetail);
 
 module.exports = router;

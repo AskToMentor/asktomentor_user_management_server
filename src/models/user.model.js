@@ -91,11 +91,15 @@ const userSchema = new mongoose.Schema(
             required: true,
             type: Boolean 
         },
+        languages: {
+            type: Array
+        },
+        
         lastName: {
             required: false,
             type: String
         },
-        
+
         linkdein_full_name: {
             type: String
         },
@@ -121,7 +125,7 @@ const userSchema = new mongoose.Schema(
         pincode: {
             type: Number
         },
-
+        
         profileImageUrl: {
             type: String
         },
@@ -134,7 +138,7 @@ const userSchema = new mongoose.Schema(
             default: RolesEnum.USER,
             type: Number
         },
-        
+
         salt: {
             type: String
         },
@@ -142,11 +146,9 @@ const userSchema = new mongoose.Schema(
         selfIntroDesc: {
             type: String
         },
-
         skills: {
             type: Array
         },
-
         stateCode: {
             required: false,
             type: String
