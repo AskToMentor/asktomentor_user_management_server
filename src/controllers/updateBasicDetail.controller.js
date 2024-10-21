@@ -21,7 +21,11 @@ const updateBasicDetail = asyncHandler (async (req, res) => {
         session = await getNewMongoSession();
     
         session.startTransaction();
-        const userId = req.decoded;
+        const {
+            userId
+        } = req.decoded;
+
+        console.log("userId", userId);
 
         const {
             selfIntroDesc, faceBookId, instagramId, twitterId, linkedinId, skills, languages, firstName, lastName
@@ -30,7 +34,7 @@ const updateBasicDetail = asyncHandler (async (req, res) => {
         if (fieldValidator(userId)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, CommonMessage.ERROR_FIELD_REQUIRED);
 
         const detail = await User.findOne({
-            userId
+            userId        
         });
 
         console.log("user", detail);
@@ -92,7 +96,7 @@ const updateBasicDetail = asyncHandler (async (req, res) => {
         );
     }
     catch (error) {
-        console.error("Error while Login User", error.message);
+        console.error("Error while Login User", error);
         // await session.abortTransaction();
         await session.abortTransaction();
 

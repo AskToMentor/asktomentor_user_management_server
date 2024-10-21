@@ -63,7 +63,7 @@ async function setupMiddleware() {
         }));
         app.use(express.urlencoded({
             extended: true,
-            limit: "8mb" 
+            limit: "8mb"
         }));
         // Initialize Firebase Admin
         
