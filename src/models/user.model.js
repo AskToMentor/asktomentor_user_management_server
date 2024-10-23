@@ -37,9 +37,13 @@ const userSchema = new mongoose.Schema(
         city: {
             type: String 
         },
+        comments: {
+            type: String
+        },
         countryCode: {
             type: String
         },
+        
         countryName: {
             type: String
         },
@@ -54,6 +58,9 @@ const userSchema = new mongoose.Schema(
             type: String
         },
         dialCode: {
+            type: String
+        },
+        education: {
             type: String
         },
         email: {
@@ -73,6 +80,9 @@ const userSchema = new mongoose.Schema(
             default: "Pending",
             type: String
         },
+        experience: {
+            type: String
+        },
         faceBookId: {
             type: String
         },
@@ -83,18 +93,21 @@ const userSchema = new mongoose.Schema(
         googleId: {
             type: String
         },
+        
         instagramId: {
             type: String
         },
+
         isDocumentUploaded: {
             default: false,
             required: true,
             type: Boolean 
         },
+
         languages: {
             type: Array
         },
-        
+
         lastName: {
             required: false,
             type: String
@@ -112,37 +125,35 @@ const userSchema = new mongoose.Schema(
         loginCount: {
             type: Number
         },
-
+        
         password: {
             required: true,
             type: String
         },
-
+        
         phoneNumber: {
             type: String
         },
-
+        
         pincode: {
             type: Number
         },
-        
+
         profileImageUrl: {
             type: String
         },
-        
+
         profileViedoUrl: {
             type: String
         },
-        
         role: {
             default: RolesEnum.USER,
             type: Number
         },
-
         salt: {
             type: String
         },
-
+        
         selfIntroDesc: {
             type: String
         },
@@ -153,11 +164,9 @@ const userSchema = new mongoose.Schema(
             required: false,
             type: String
         },
-        
         twitterId: {
             type: String
         },
-        
         userId: {
             required: true,
             type: String,

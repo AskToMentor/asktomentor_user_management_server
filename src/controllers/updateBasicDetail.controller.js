@@ -28,7 +28,7 @@ const updateBasicDetail = asyncHandler (async (req, res) => {
         console.log("userId", userId);
 
         const {
-            selfIntroDesc, faceBookId, instagramId, twitterId, linkedinId, skills, languages, firstName, lastName
+            selfIntroDesc, faceBookId, instagramId, twitterId, linkedinId, skills, languages, firstName, lastName, experience, education, comments
         } = req.body;
 
         if (fieldValidator(userId)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, CommonMessage.ERROR_FIELD_REQUIRED);
@@ -81,6 +81,15 @@ const updateBasicDetail = asyncHandler (async (req, res) => {
         if (!fieldValidator(lastName))
             userObj.selfIntroDesc = selfIntroDesc;
 
+        if (!fieldValidator(experience))
+            userObj.experience = experience;
+
+        if (!fieldValidator(education))
+            userObj.education = education;
+
+        if (!fieldValidator(comments))
+            userObj.comments = comments;
+          
         await User.findOneAndUpdate({
             userId
         }, {
