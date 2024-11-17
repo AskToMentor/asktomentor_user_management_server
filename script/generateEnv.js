@@ -2,7 +2,7 @@
 // If you need more information about configurations or implementing the sample code, visit the AWS docs:
 // https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-started.html
 
-const secret_name = "preprodEnv";
+const secret_name = "asktomentor";
 const fs = require("fs");
 const path = require("path");
 const {
@@ -12,10 +12,10 @@ const {
 
 const client = new SecretsManagerClient({
     credentials: {
-        accessKeyId: "AKIAYKFQQSOZBV5O4CDN",       // Replace with your actual AWS Access Key ID
-        secretAccessKey: "eVZEN30ae1FQybdENIr1qfuvxj9FY5pjFnT9pKin" // Replace with your actual AWS Secret Access Key
+        accessKeyId: "AKIA6LRLVYMQXQOPYBXN",       // Replace with your actual AWS Access Key ID
+        secretAccessKey: "TbxWnDPZWYPxRXhLJly3/FZZMq7Q/rzrWxG0+K2i" // Replace with your actual AWS Secret Access Key
     },
-    region: "ap-south-1"
+    region: "us-east-1"
 });
 
 const generateEnv = async () => {
@@ -26,8 +26,14 @@ const generateEnv = async () => {
                 VersionStage: "AWSCURRENT" // VersionStage defaults to AWSCURRENT if unspecified
             })
         );
+
         // Assuming the secret string is in JSON format
+        console.log("response.SecretString", response.SecretString);
+        
         const secretData = JSON.parse(response.SecretString);
+
+        console.log("secretData", secretData);
+        
         let envContent = "";
 
         for (const [ key,
