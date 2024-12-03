@@ -38,7 +38,7 @@ const login = asyncHandler (async (req, res) => {
 
         const strongRegex = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})");
 
-        if (!strongRegex.test(password)) throw new ApiError(statusCodeObject.HTTP_UNPROCESSABLE_ENTITY, errorAndSuccessCodeConfiguration.HTTP_UNPROCESSABLE_ENTITY, registerMessage.ERROR_PASSWORD_VALIDATION);
+        if (!strongRegex.test(password)) throw new ApiError(statusCodeObject.HTTP_UNPROCESSABLE_ENTITY, errorAndSuccessCodeConfiguration.HTTP_UNPROCESSABLE_ENTITY, loginMessage.ERROR_PASSWORD_VALIDATION);
 
         // eslint-disable-next-line no-useless-escape
         const emailRegex =  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/;
