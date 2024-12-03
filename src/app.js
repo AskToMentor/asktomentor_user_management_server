@@ -17,7 +17,7 @@ const {
     connect
 } = require ("./configuration/dbConnection.js");
 // const helper =require("./utils/helper.js");
-const checkForPlatform = require("./middleware/checkForPlatform.js");
+// const checkForPlatform = require("./middleware/checkForPlatform.js");
 const logHeaders = require("./middleware/logHeaders.js");
 const admin = require("firebase-admin");
 const firebaseJson = require("./utils/fireBase.json");
@@ -56,7 +56,7 @@ async function setupMiddleware() {
         // app.use(cors(corsOptions));
         app.use(cors());
         app.use(helmet());
-        app.use(checkForPlatform);
+        // app.use(checkForPlatform);
         app.use(express.static("public"));
         app.use(express.json({
             limit: "8mb" 

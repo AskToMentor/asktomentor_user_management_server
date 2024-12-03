@@ -2,7 +2,7 @@
 // If you need more information about configurations or implementing the sample code, visit the AWS docs:
 // https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-started.html
 
-const secret_name = "asktomentor";
+const secret_name = "";
 const fs = require("fs");
 const path = require("path");
 const {
@@ -12,10 +12,11 @@ const {
 
 const client = new SecretsManagerClient({
     credentials: {
-        accessKeyId: "AKIA6LRLVYMQXQOPYBXN",       // Replace with your actual AWS Access Key ID
-        secretAccessKey: "TbxWnDPZWYPxRXhLJly3/FZZMq7Q/rzrWxG0+K2i" // Replace with your actual AWS Secret Access Key
+        accessKeyId: "",       // Replace with your actual AWS Access Key ID
+        secretAccessKey: "" // Replace with your actual AWS Secret Access Key
+    
     },
-    region: "us-east-1"
+    region: ""
 });
 
 const generateEnv = async () => {
