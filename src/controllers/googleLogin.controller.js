@@ -42,7 +42,7 @@ const googleLogin = asyncHandler (async (req, res) => {
             email: decodedToken.email
         });
 
-        if (fieldValidator(user)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, registerMessage.ERROR_USER_NOT_FOUND);
+        if (fieldValidator(user)) throw new ApiError(statusCodeObject.HTTP_STATUS_BAD_REQUEST, errorAndSuccessCodeConfiguration.HTTP_STATUS_BAD_REQUEST, loginMessage.ERROR_USER_NOT_FOUND);
         
         console.log( "inside user if block", user);
 
